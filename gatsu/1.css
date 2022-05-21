@@ -1,6 +1,9 @@
-.h2-margin {
-    margin-bottom: -20px;
-    text-align: center;
+body {
+    color: black;
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(https://pulpfictioncine.com/download/multimedia.grande.8f6be2a16e412d0a.4265727365726b2d477574735f6772616e64652e706e67.png);
+
 }
 
 .box {
@@ -9,32 +12,25 @@
     border-color: black;
     border-width: 5px;
     text-align: center;
-}
-
-h2 {
-    color: rgb(0, 0, 0);
-    font-family: Arial, Helvetica, sans-serif;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
 
 }
+
 
 p {
     font-size: 16px;
     font-family: monospace;
 }
 
-body {
-    color: black;
-    font-size: 100%;
-    background-image: url(https://pulpfictioncine.com/download/multimedia.grande.8f6be2a16e412d0a.4265727365726b2d477574735f6772616e64652e706e67.png);
-
-}
-
 
 .smaller-image {
-    width: 300px;
+    width: 400px;
     border-radius: 50%;
     margin-top: 20px;
-    margin-left: 600px;
+    margin-left: 500px;
+
 }
 
 .thick-border {
