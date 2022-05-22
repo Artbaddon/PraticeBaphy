@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(48, 48, 48);
+    background-image: url(https://cdn.pixabay.com/photo/2020/09/09/04/36/burger-5556498_960_720.png);
+}
+
+h1,
+h2,
+p {
+    text-align: center;
+}
+
+.menu {
+    width: 80%;
+    background-color: rgb(170, 19, 49);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.item p {
+    display: inline-block;
+}
+
+.hname {
+    text-align: left;
+    width: 75%;
+}
+
+.price {
+    text-align: right;
+    width: 24%;
+}
