@@ -20,7 +20,8 @@ p {
     display: inline-block;
 }
 
-.hname {
+.hname,
+.drink {
     text-align: left;
     width: 75%;
 }
