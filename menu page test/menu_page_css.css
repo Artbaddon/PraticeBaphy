@@ -1,6 +1,7 @@
 body {
     background-color: rgb(48, 48, 48);
     background-image: url(https://cdn.pixabay.com/photo/2020/09/09/04/36/burger-5556498_960_720.png);
+    font-family: sans-serif;
 }
 
 h1,
@@ -8,12 +9,18 @@ h2,
 p {
     text-align: center;
 }
+h1,
+h2 {
+    font-family: Impact, serif;
+}
 
 .menu {
     width: 80%;
     background-color: rgb(170, 19, 49);
     margin-right: auto;
     margin-left: auto;
+    padding: 20px;
+    max-width: 500px;
 }
 
 .item p {
