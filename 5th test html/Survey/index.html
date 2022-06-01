@@ -14,27 +14,28 @@
         <p id="description">In this survey you have to tell us about your favorites Animanga</p>
         <form id="survey-form">
             <fieldset>
-                <label>Name<input type="text" id="name-label" name="name" placeholder="Enter your name"
+                <label id="name-label">Name<input type="text" id="name" name="name" placeholder="Enter your name"
                         required></label>
-                <label>Email<input type="email" id="email-label" name="email" placeholder="Enter your email"
+                <label id="email-label">Email<input type="email" id="email" name="email" placeholder="Enter your email"
                         required></label>
-                <label>Age<input type="number" id="number-label" name="number" required min="13" max="120"
+                <label id="number-label">Age<input type="number" id="number" name="number" required min="13" max="120"
                         placeholder="Age"></label>
-            </div>
-            <label>How many time do you take to enjoy the content?
-                <select id="dropwown" required>
-                    <option value="">(Select one)</option>
-                    <option value="1">1 to 2 hours at week</option>
-                    <option value="2">3 to 4 hours at week</option>
-                    <option value="3">5 to 6 hours at week</option>
-                    <option value="4">at least 1 hour daily</option>
-                </select>
+            </fieldset>
+            <fieldset>
+                <label>How many time do you take to enjoy the content?
+                    <select id="dropdown" required>
+                        <option value="">(Select one)</option>
+                        <option value="1">1 to 2 hours at week</option>
+                        <option value="2">3 to 4 hours at week</option>
+                        <option value="3">5 to 6 hours at week</option>
+                        <option value="4">at least 1 hour daily</option>
+                    </select>
             </fieldset>
 
             <fieldset> What anime of the big 3 do you like more?
-                <label><input type="radio" name="big3" class="inline">One piece</label>
-                <label><input type="radio" name="big3" class="inline">Bleach</label>
-                <label><input type="radio" name="big3" class="inline">Naruto</label>
+                <label><input type="radio" name="big3" class="inline" value="one-piece">One piece</label>
+                <label><input type="radio" name="big3" class="inline" value="bleach">Bleach</label>
+                <label><input type="radio" name="big3" class="inline" value="naruto">Naruto</label>
             </fieldset>
             <fieldset> What demography do you enjoy more? (select one)
                 <label><input type="checkbox" value="demography">Shonen</label>
