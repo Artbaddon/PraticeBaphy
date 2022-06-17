@@ -1,27 +1,37 @@
 body {
     background-color: #5c5757;
-    font-family: Impact;
+    font-family: Helvetica;
     margin: 0;
 }
 
 #logo {
-    width: max(50px, 4vw);
-    height: max(50px, 4vw);
-    background-color: #393e46;
+    width: max(30px, 3.5vw);
+    height: max(30px, 3vw);
+    background-color: #4f555f;
     aspect-ratio: 35/4;
     padding: 0.4rem;
 }
 
 header {
-    height: 75px;
+    height: 60px;
     width: 100%;
     background-color: #363434;
     display: flex;
 }
 
 h1 {
-    color:rgb(30, 27, 58) ;
-    font-size: 35px;
+    color: #70809c;
+    font-size: 25px;
+
+}
+
+h1,
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+h2 {
+    border-bottom: 4px solid #363434;
 }
 
 nav {
@@ -30,7 +40,7 @@ nav {
     height: 50px;
 }
 
-nav > ul{
+nav>ul {
     display: flex;
     justify-content: space-evenly;
 }
