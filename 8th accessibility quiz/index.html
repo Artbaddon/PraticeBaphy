@@ -15,8 +15,8 @@
         <nav>
             <ul>
                 <li><a href="#user-info">INFO</a></li>
-                <li><a href="#allomancy-questions">Allomancy</a></li>
-                <li><a href="#characters">Characters</a></li>
+                <li><a href="#allomancy-questions">ALLOMANCY</a></li>
+                <li><a href="#characters">CHARACTERS</a></li>
 
 
             </ul>
@@ -35,7 +35,7 @@
                     <input id="email" name="email" type="email" />
                 </div>
                 <div class="info">
-                    <label for="birth">D.O.B</label>
+                    <label for="birth">D.O.B<span class="sr-only">(Date of birth)</span></span></label>
                     <input id="birth" name="date" type="date" />
                 </div>
 
@@ -45,13 +45,73 @@
             </section>
             <section role="region" aria-labelledby="allomancy-questions">
                 <h2 id="Allomancy">Allomancy</h2>
+                <div class="question-block">
+                    <p>1</p>
+                    <fieldset class="question" name="allomancy-q1">
+                        <legend>
+                            The pewter its one of the elements of the allomancy
+                        </legend>
+                        <ul class="answers-list">
+                            <li><label for="q1-a">
+                                    <input id="q1-a" type="radio" value="true" name="q1" />True</label>
+                            </li>
+                            <li><label for="q2-a">
+                                    <input id="q2-a" type="radio" value="false" name="q1" />False<label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
+                <div class="question-block">
+                    <p>2</p>
+                    <fieldset class="question" name="allomancy-q2">
+                        <legend>
+                            The kandra was created by lord ruler
+                        </legend>
+                        <ul class="answers-list">
+                            <li><label for="q1-a">
+                                    <input id="q1-a" type="radio" value="true" name="q2" />True</label>
+                            </li>
+                            <li><label for="q2-a">
+                                    <input id="q2-a" type="radio" value="false" name="q2" />False</label>
+                            </li>
+                        </ul>
+                    </fieldset>
+                </div>
             </section>
             <section role="region" aria-labelledby="characters">
                 <h2 id="Characters">Characters</h2>
-            </section>
+                <div class="formrow">
+                    <div class="question-block">
+                        <label for="s1">Who is Vin?</label>
 
+                    </div>
+                    <div class="answer">
+                        <select id="s1" name="s1" required>
+                            <option value="">Select an option</option>
+                            <option value="mitsborn">Its a powerful mitsborn</option>
+                            <option value="Terrisans">Its one of the Terrisans </option>
+                            <option value="Wife">Its the wife of Kelsier</option>
+                        </select>
+
+                    </div>
+                    <div class="question-block">
+                        <label>Why Kelsier die?</label>
+
+                    </div>
+                    <div class="answer">
+                        <textarea id="kelsier-q" name="kelsier-q" rows="5" cols="24"
+                            placeholder="A kandra who..."></textarea>
+                    </div>
+                </div>
+            </section>
+            <button type="submit">Submit</button>
         </form>
     </main>
+    <footer>
+        <address>
+            
+        </address>
+    </footer>
 </body>
 
 </html>
