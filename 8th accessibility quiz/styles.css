@@ -99,7 +99,7 @@ nav li:hover {
 section {
     width: 80%;
     max-width: 600px;
-    margin: 0 auto 10px auto;
+    margin: 0 auto 10px;
 }
 
 .info {
@@ -116,7 +116,12 @@ input {
 
 }
 
-.info > input {
+.info>input {
     width: 50%;
     text-align: left;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 60px;
 }
