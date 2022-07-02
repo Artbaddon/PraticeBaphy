@@ -1,0 +1,135 @@
+body {
+    background-color: #6F8AB7;
+}
+
+#back-wall {
+    background-color: #615D6C;
+    width: 100%;
+    height: 60%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#bb-character {
+    width: 300px;
+    height: 550px;
+    background-color: #ACEDFF;
+    position: absolute;
+    top: 20%;
+    left: 17.5%;
+}
+
+#blue-hat {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 120px 140px 180px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+    border-bottom-color: #ACEDFF;
+    position: absolute;
+    top: -140px;
+    left: 0;
+
+}
+
+#white-mask {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#gray-instrument {
+    width: 15%;
+    height: 40%;
+    background-color: #666d79;
+    position: absolute;
+    top: 50px;
+    left: 125px;
+    z-index: 1;
+}
+
+.white-dot {
+    width: 9px;
+    height: 9px;
+    background-color: #CAE5FF;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 55%;
+}
+
+#tan-table {
+    width: 450px;
+    height: 140px;
+    background-color: #016288;
+    position: absolute;
+    top: 275px;
+    left: 15px;
+    z-index: 1;
+
+}
+
+#gray-character {
+    width: 300px;
+    height: 500px;
+    background-color: #393e46;
+    position: absolute;
+    top: 30%;
+    left: 59%;
+}
+
+#gray-hat {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 150px 0 0 300px;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #393e46;
+    position: absolute;
+    top: -150px;
+    left: 0;
+}
+
+#blue-mask {
+    width: 150px;
+    height: 150px;
+    background-color: #666d79;
+    position: absolute;
+    top: -10px;
+    left: 70px;
+}
+
+#white-paper {
+    width: 400px;
+    height: 100px;
+    background-color: ghostwhite;
+    position: absolute;
+    top: 250px;
+    left: -150px;
+    z-index: 1;
+}
+
+.fa-music {
+    display: inline-block;
+    margin-top: 8%;
+    margin-left: 13%;
+}
+
+.red {
+    background-color: #CB3200;
+}
+
+#red-left {
+    width: 500px;
+    height: 300px;
+}
