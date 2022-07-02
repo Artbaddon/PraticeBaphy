@@ -132,4 +132,15 @@ body {
 #red-left {
     width: 500px;
     height: 300px;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+}
+
+#red-right {
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top: 50%;
+    left: 40%;
 }
