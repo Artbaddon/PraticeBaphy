@@ -52,3 +52,7 @@ footer  {
     text-align: center;
     margin: 10px auto;
 }
+
+p {
+    overflow: hidden;
+}
