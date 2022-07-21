@@ -2,12 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    
+
+
 }
 
 body {
     font-size: 120%;
- 
+    background-image: url(https://wallpaperaccess.com/full/2222765.jpg);
+    background-repeat: no-repeat;
+
 }
 
 h1 {
@@ -19,7 +22,7 @@ h1 {
     margin: 0;
     border: 2px solid red;
     width: 100%;
-    margin-bottom:  10px;
+    margin-bottom: 10px;
 }
 
 .box {
@@ -32,19 +35,20 @@ h1 {
     border-color: black;
     border-radius: 24px;
     margin: 4px;
-   
+
 }
 
 .b-1 {
     background-color: beige;
-    
+    padding: 7px;
+
 }
 
 .b-2 {
     background-color: bisque;
 }
 
-.b-3{
+.b-3 {
     background-color: blanchedalmond;
     overflow: auto;
 }
@@ -86,6 +90,7 @@ a:active {
 
 #list-link {
     margin-top: 50px;
+    
 }
 
 #list-link li:nth-child(1) {
@@ -95,9 +100,11 @@ a:active {
 
 #abc {
     display: block;
+    align-items: right;
     font-size: 20px;
     text-align: center;
-    width: 300px;
+    width: 200px;
+    background-color: white;
 }
 
 #abc div:nth-child(odd):hover {
