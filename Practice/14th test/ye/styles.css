@@ -2,14 +2,15 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 
 
 }
 
 body {
     font-size: 120%;
-    background-image: url(https://wallpaperaccess.com/full/2222765.jpg);
-    background-repeat: no-repeat;
+    background-image: url('https://wallpaperaccess.com/full/2222765.jpg');
+    
 
 }
 
@@ -41,16 +42,24 @@ h1 {
 .b-1 {
     background-color: beige;
     padding: 7px;
-
+    clear: both;
+    
+   
 }
 
 .b-2 {
     background-color: bisque;
+    float: right;
+    
+  
+    
 }
 
 .b-3 {
     background-color: blanchedalmond;
     overflow: auto;
+    float: right;
+    
 }
 
 .box p {
@@ -60,6 +69,8 @@ h1 {
     text-align: center;
 
 }
+
+
 
 article p:last-of-type {
     color: red;
@@ -80,6 +91,7 @@ a:visited {
     width: 100px;
     text-align: center;
     margin-bottom: 2px;
+    width: 200px;
 }
 
 a:hover,
@@ -90,6 +102,9 @@ a:active {
 
 #list-link {
     margin-top: 50px;
+    margin-left: 50px;
+    float :left;
+  
     
 }
 
@@ -105,6 +120,8 @@ a:active {
     text-align: center;
     width: 200px;
     background-color: white;
+    float: right;
+   
 }
 
 #abc div:nth-child(odd):hover {
