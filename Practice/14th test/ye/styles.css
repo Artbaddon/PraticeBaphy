@@ -1,3 +1,4 @@
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -35,30 +36,37 @@ h1 {
     border: 2px solid;
     border-color: black;
     border-radius: 24px;
-    margin: 4px;
+    margin: 0 80px;
+    clear: both;
+
+   
 
 }
 
 .b-1 {
     background-color: beige;
     padding: 7px;
-    clear: both;
+    position: relative;
+    top: 0;
+    right: 0;
     
    
 }
 
 .b-2 {
     background-color: bisque;
-    float: right;
-    
-  
-    
+    position: relative;
+    bottom: 152px;
+    left: 400px;    
 }
 
 .b-3 {
     background-color: blanchedalmond;
     overflow: auto;
-    float: right;
+    position: relative;
+    bottom: 303px;
+    left: 800px;
+    
     
 }
 
