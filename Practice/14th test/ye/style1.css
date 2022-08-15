@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0 auto;
 
 }
 
@@ -111,7 +112,46 @@ a:active {
 
 }
 
+.dft {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
 
+.boxdf {
+    width: 160px;
+    height: 320px;
+    background-color: rgb(192, 192, 199);
+    border: 2px solid black;
+    font-size: 4ch;
+    text-align: center;
+    
+    
+}
+
+.mugiwaras img {
+    display: flex;
+    
+    
+}
+
+.zoro, .ruffykun {
+    width: 200px;
+    height: 300px;
+    margin-top: 10px;
+}
+
+.zoro {
+    position: relative;
+    left: 60%;
+    
+}
+
+.ruffykun {
+    position: relative;
+    left: 15%;
+}
 
 
 
@@ -155,7 +195,7 @@ a:active {
         font-size: 2.5ch;
     }
 
-
+    
 
 }
 
@@ -176,4 +216,6 @@ a:active {
         height: min-content;
         font-size: 2ch;
     }
+
+    
 }
