@@ -5,95 +5,91 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS GRID</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet" type="text/css">
-    <title>Puck Shoes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <img id="logo" src="IMAGES/Navbar.png" alt="">
-        <h1 class="brand-name">PUCK SHOES<br> STORE</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">HOME</a></li>
-                <li><a href="#men">MEN</a></li>
-                <li><a href="#women">WOMEN</a></li>
-                <li><a href="#about">ABOUT</a></li>
-            </ul>
-        </nav>
+    <header class="title">
+        <h1>Victor VOn Franks</h1>
     </header>
-    <main>
-        <section id="home">
+    <div class="container">
+        <header class="header">
+            <h1>Logo</h1>
+        </header>
+        <main class="content">
+            <article class="article">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officiis officia nulla. Animi eligendi,
+                    omnis quas provident quos rem minus.</p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, perferendis.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, reprehenderit!</p>
+            </article>
+            <article class="article">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officiis officia nulla. Animi eligendi,
+                    omnis quas provident quos rem minus.</p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, perferendis.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, reprehenderit!</p>
+            </article>
+            <article class="article">
+                <h1>Title</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad officiis officia nulla. Animi eligendi,
+                    omnis quas provident quos rem minus.</p>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, perferendis.
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, reprehenderit!</p>
+            </article>
+
+        </main>
+        <aside class="sidebar">
             <div>
-                <img id="home1" src="IMAGES/HOMe.png" alt="">
+                <img src="http://placekitten.com/200/200" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quasi?</p>
             </div>
-
-        </section>
-        <section id="men">
-            <h3 class="title 1">MEN SHOES</h3>
-            <div id="grid-men-s">
-                <h3 class="title 2">SPORT</h3>
-                <figure>
-                    <img class="ms-wide" src="IMAGES/man1.png" alt="">
-                    <figcaption class="caption">Adodis W Se</figcaption>
-                </figure>
-
-                <figure>
-                    <img class="ms-standard" src="https://images.pexels.com/photos/1456705/pexels-photo-1456705.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-                " alt="">
-                    <figcaption class="caption">Niki Air 1</figcaption>
-                </figure>
-                <figure>
-                    <img class="ms-standard" src="https://images.pexels.com/photos/1456737/pexels-photo-1456737.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
-                " alt="">
-                    <figcaption class="caption">Adodis train</figcaption>
-                </figure>
-                <figure>
-                    <img class="ms-standard" src="https://images.pexels.com/photos/1456731/pexels-photo-1456731.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load
-                " alt="">
-                    <figcaption class="caption">Niki Blak</figcaption>
-                </figure>
-                <figure>
-                    <img class="ms-standard" src="https://images.pexels.com/photos/1456731/pexels-photo-1456731.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-                " alt="">
-                    <figcaption class="caption">Superniki 3</figcaption>
-                </figure>
-
+            <div>
+                <img src="http://placekitten.com/200/206" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quasi?</p>
             </div>
-            <div id="HypeBeast">
-                <h3 class="title 3">HYPEBEAST</h3>
-                <figure>
-                    <img class="hb-wide" src="IMAGES/HB1.png" alt="">
-                    <figcaption class="caption">Lui Vuito Niki SE</figcaption>
-                </figure>
-                <figure>
-                    <img class="hb-standard" src="" alt="">
-                    <figcaption class="caption">Niki Casual 3</figcaption>
-                </figure>
-                <figure>
-                    <img class="hb-standard" src="" alt="">
-                    <figcaption class="caption">Niki one Cactus 2</figcaption>
-                </figure>
-                <figure>
-                    <img class="hb-standard" src="" alt="">
-                    <figcaption class="caption">Niki Brown Se 3</figcaption>
-                </figure>
-                <figure>
-                    <img class="hb-standard" src="" alt="">
-                    <figcaption class="caption">Niki Gold 4</figcaption>
-                </figure>
+            <div>
+                <img src="http://placekitten.com/200/202" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, quasi?</p>
             </div>
-        </section>
-        <section id="women">
-            <h3 class="title 4">WOMEN</h3>
-        </section>
-        <section id="about">
-            <h3 class="title 5">ABOUT</h3>
-        </section>
-    </main>
+        </aside>
+    
+        <div class="related-post">
+            Another Post
+        </div>
+        <div class="related-post">
+            Another Post
+        </div>
+        <div class="related-post">
+            Another Post
+        </div>
+        <div class="related-post">
+            Another Post
+        </div>
+    
+        <div class="related-post">
+            Another Post
+        </div>
+        <footer class="footer">
+            <h4>footer</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, dolor?</p>
+        </footer>
+    
 
+    </div>
+
+    
 
 </body>
 
