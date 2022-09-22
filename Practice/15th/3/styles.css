@@ -1,0 +1,99 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+        scroll-behavior: smooth;
+    }
+}
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #D9D9D9;
+    font-family: 'Inter', sans-serif;
+
+
+}
+
+header {
+    height: 80px;
+    width: 1200px;
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 40px;
+    left: 172px;
+    
+}
+
+#logo {
+    width: 60px;
+    height: 79px;
+    padding: 1rem;
+
+}
+
+nav {
+    width: 90%;
+    height: 80px;
+}
+
+nav > ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-inline-start: 0;
+    margin-block: 0;
+    height: 100%;
+    
+}
+
+nav > ul > li {
+    color: #BABABA;
+    margin-top: 50px;
+    padding: 0.2rem;
+    margin-right: 250px;
+    
+}
+
+#shoestorem {
+    margin-left: 40px;
+    margin-right: auto;
+
+}
+
+main {
+    margin-top: 120px;
+    
+}
+
+
+
+#home {
+    width: 1200px;
+    background-color: white;
+    display: block;
+    height: 400px;
+   
+    
+}
+.home {
+   width: 800px;
+   
+    
+}
+
+.homeimg {
+    max-width: 100%;
+    height: auto;
+    margin-left: 200px;
+}
+section {
+    width: 80%;
+    margin: 0 auto;
+}
