@@ -27,7 +27,7 @@ header {
     justify-content: center;
     position: absolute;
     margin-left: 153px;
-    
+
 
 }
 
@@ -55,7 +55,7 @@ nav>ul {
 }
 
 nav>ul>li {
-   
+
     margin-top: 45px;
     padding: 0.2rem;
     margin-right: 100px;
@@ -65,16 +65,16 @@ nav>ul>li {
 
 h1 {
     color: #BABABA;
-    font-size: 2.2ch;
-    
+    font-size: 3ch;
+
 }
 
-li > a {
+li>a {
     color: #BABABA;
     background-color: #000;
     text-decoration: none;
     font-size: 2.4ch;
-    
+
 }
 
 nav li:hover {
@@ -84,26 +84,11 @@ nav li:hover {
 }
 
 
-
-#shoestorem {
-    margin-left: 40px;
-    margin-right: auto;
-
-}
-
 main {
-   margin-top: 40px;
-
-}
-
-
-
-#home {
-   
+    margin-top: 40px;
     background-color: white;
-    display: block;
-    height: 400px;
-
+    width: 1237px;
+    margin: 0 auto;
 
 }
 
@@ -116,31 +101,47 @@ main {
 .homeimg {
     max-width: 100%;
     height: auto;
-    margin-left: 200px;
+    display: block;
+    margin-left: 100px;
 }
 
 
 
 .title {
     text-align: center;
-    background-color: white;
     
+
 }
 
 .title-left {
     margin-left: 20px;
 }
 
-#grid-men-s {
-  
-    background-color: white;
-    display: block;
-    height: 400px;
-    
-    margin-top: 0;
+img:not(.homeimg) {
+    width: 200px;
 }
+
+#ms-wide {
+    width: 500px;
+}
+
+#grid-men-s {
+    background-color: #585858;
+    height: 500px;
+    max-width: 1000px;
+}
+
 
 section {
     width: 80%;
     margin: 0 auto;
+}
+
+
+
+main {
+    margin-top: 40px;
+    background-color: white;
+   
+
 }
