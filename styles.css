@@ -7,6 +7,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 
@@ -109,39 +110,58 @@ main {
 
 .title {
     text-align: center;
-    
+
 
 }
 
 .title-left {
     margin-left: 20px;
+    width: 100px;
+    height: 20px;
 }
 
 img:not(.homeimg) {
     width: 200px;
 }
 
-#ms-wide {
-    width: 500px;
-}
 
-#grid-men-s {
+
+.grid-men-s {
     background-color: #585858;
     height: 500px;
     max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
 }
 
+#ms-wide {
+    width: 500px;
+    
+}
+
+.man1 {
+    grid-column: 1/2;
+    
+}
+
+.man2 {
+    grid: 2/3;
+}
 
 section {
     width: 80%;
     margin: 0 auto;
 }
 
-
+figure .man1 {
+    height: auto;
+   
+}
 
 main {
     margin-top: 40px;
     background-color: white;
-   
+
 
 }
