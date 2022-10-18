@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.boxes-flex {
+    display: flex;
+    flex-flow: wrap;
+    place-content: center flex-start;
+    gap: 0.5rem;
+    max-width: 350px;
+
+}
+
+
+
+.box {
+    width: 110px;
+    height: fit-content;
+    background-color: rgb(185, 185, 185);
+    border: 2px solid black;
+    
+}
+
+.smallb-flex {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    place-content: center space-around;
+    max-width: 200px;
+    
+    gap: 0.4rem;
+    flex-shrink: initial;
+}
+
+
+.boxsmall {
+    background-color: rgb(248, 248, 248);
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    
+}
+
+.sb3 {
+    height: 120px;
+    background-color: rgb(126, 126, 126);
+
+}
+
+
+.box:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

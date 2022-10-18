@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+#gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4px;
+
+}
+
+#gallery img {
+    width: 25%;
+    height: 260px;
+    object-fit: cover;
+    margin-top: 0 8px;
+    padding: 0 4px;
+    border-radius: 10px;
+}
+
+.header {
+    padding: 32px;
+    background-color: #c4c1e0;
+}
+
+body {
+    margin: 0;
+    font-family: monospace;
+    text-align: center;
+    background-color: #7c73e6;
+}
+
+@media (max-width: 800px){
+    #gallery img {
+        width: 50%;
+    }
+    
+}
+
+@media (max-width: 600px) {
+    #gallery img{
+      width: 100%;
+    }
+}

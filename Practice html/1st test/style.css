@@ -1,0 +1,42 @@
+header li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+#box {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border: 3px solid white;
+    margin: 40px;
+    width: 100px;
+}
+#content {
+    background-color:white ;
+}
+
+
+a:link,
+a:visited {
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    display: block;
+    width: 200px;
+    margin-bottom: 1px;
+}
+
+a:hover,
+a:active {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+header li:nth-child(3) {
+    font-size: 24px;
+}

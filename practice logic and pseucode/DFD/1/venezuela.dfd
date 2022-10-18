@@ -1,0 +1,133 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+1
+x
+1
+0
+1
+y
+1
+0
+4
+1
+17
+'Digite 1 numero'
+5
+1
+1
+x
+4
+1
+20
+'Digite otro numero'
+5
+1
+1
+y
+6
+3
+4
+suma
+3
+x+y
+5
+resta
+3
+x-y
+4
+mult
+3
+x*y
+6
+1
+8
+division
+3
+x/y
+4
+1
+26
+'Desea sumar los numeros?'
+5
+1
+2
+r1
+7
+0
+1
+8
+r1= 'si'
+4
+1
+27
+'Desea restar los numeros?'
+5
+1
+2
+r2
+7
+0
+1
+9
+r2 = 'si'
+4
+1
+31
+'Desea multipliar los numeros?'
+5
+1
+2
+r3
+7
+0
+1
+9
+r3 = 'si'
+4
+1
+28
+'Desea dividir los numeros?'
+5
+1
+2
+r4
+7
+0
+1
+8
+r4= 'si'
+4
+1
+23
+'que quieres entonces?'
+13
+4
+1
+27
+'el resultado es', division
+13
+13
+4
+1
+23
+'el resultado es', mult
+13
+13
+4
+1
+24
+'el resultado es', resta
+13
+13
+4
+1
+23
+'el resultado es', suma
+13
+1
