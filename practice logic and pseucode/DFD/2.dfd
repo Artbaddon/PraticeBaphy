@@ -1,0 +1,72 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+C
+1
+0
+1
+F
+1
+0
+2
+R1
+1
+0
+4
+1
+53
+'Que grados desea converitr? 1 Celcius, 2 Fahrenheit'
+5
+1
+2
+R1
+7
+0
+1
+6
+R1 = 1
+4
+1
+33
+'Que numero desea convertir a C?'
+5
+1
+1
+F
+6
+1
+2
+FC
+10
+(F-32)/1.8
+4
+1
+38
+'El resultado es', FC,'Grados Celcius'
+13
+4
+1
+33
+'Que numero desea convertir a F?'
+5
+1
+1
+C
+6
+1
+2
+CF
+10
+(9/5*c)+32
+4
+1
+41
+'El resultado es', CF,'Grados Fahrenheit'
+13
+1

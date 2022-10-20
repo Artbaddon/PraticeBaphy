@@ -1,0 +1,9 @@
+6. Calcule la media aritmética de 3 números cualesquiera
+
+==================================================================================================
+
+Entrada = 3 numeros random
+
+Salida = media aritmetica de los 3 numeros
+
+Formua = n1+n2+n3.../N N= 3 cantitad de numeros

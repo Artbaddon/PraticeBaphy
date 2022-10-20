@@ -1,0 +1,83 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+2
+c1
+1
+0
+2
+c2
+1
+0
+2
+c3
+1
+0
+6
+2
+2
+ef
+1
+0
+2
+tf
+1
+0
+4
+1
+48
+'Por favor digite las 3 primeras calificaciones'
+5
+1
+10
+c1, c2 ,c3
+4
+1
+50
+'Ahora digite la calificacion de su examen final '
+5
+1
+2
+ef
+4
+1
+51
+'Ahora digite la calificacion de su trabajo final '
+5
+1
+2
+tf
+6
+3
+9
+promedio3
+13
+(c1+c2+c3)/3 
+2
+p3
+14
+promedio3*0.55
+3
+efp
+7
+ef*0.30
+6
+2
+3
+tfp
+7
+tf*0.33
+9
+notafinal
+14
+p3 + tfp + efp
+4
+1
+34
+' su nota final es de ', notafinal
+1

@@ -1,0 +1,43 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+6
+HorasT
+1
+0
+6
+ValorH
+1
+0
+4
+1
+39
+'Inserte el numero de horas trabajadas'
+5
+1
+6
+HorasT
+4
+1
+28
+'Inserte el valor por hora '
+5
+1
+6
+ValorH
+6
+1
+6
+Sueldo
+13
+HorasT*ValorH
+4
+1
+130
+' El sueldo por haber trabajado ', HorasT, '  horas', ' a un total de ', ValorH, ' $ por hora ', ' Da un sueldo de ', Sueldo , '$'
+1

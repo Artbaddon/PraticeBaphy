@@ -1,0 +1,10 @@
+Sacar la hipotenusa de un triangulo rectangulo, pidiendo al usuario el valor de los 2 catetos
+
+
+==================================================================================================
+
+Entrada = Cateto 1, cateto 2
+
+Salida= Valor hipotenusa sin raiz cuadrada
+
+sqrt((Cateto1)^2 + (cateto2)^2)

@@ -1,0 +1,7 @@
+2. Convertir Grados Celsius a Grados Fahrenheit
+
+==================================================================================================
+
+Entrada = Grados celcisus, fahrenheit
+
+Salida = grados celcius o fahrenheit ya operados

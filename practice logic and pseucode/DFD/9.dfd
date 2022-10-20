@@ -1,0 +1,47 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+7
+salario
+1
+0
+10
+incremento
+1
+0
+4
+1
+20
+'Digite el salario '
+5
+1
+7
+salario
+4
+1
+48
+'Digite el porcentaje del incremento (1 al 100)'
+5
+1
+10
+incremento
+6
+2
+9
+insalario
+22
+salario*incremento/100
+12
+salariototal
+19
+salario + insalario
+4
+1
+42
+'Su salario total es  ', salariototal, '$'
+1

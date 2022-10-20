@@ -1,0 +1,9 @@
+5. hacer un programa que calcule areas de trapecios
+
+==================================================================================================
+
+Entrada = BaseMayor, Base menor, Altura
+
+Salida = Valor del area
+
+Formula= a=(B+b)/2 * h

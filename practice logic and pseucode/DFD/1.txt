@@ -1,0 +1,7 @@
+1. Pedir 2 números al usuario y sumarlos, restarlos, multiplicarlos y dividirlos.
+
+==================================================================================================
+
+Entrada = Numeros a operar
+
+Salida = Resultado de la operacion escogida.
