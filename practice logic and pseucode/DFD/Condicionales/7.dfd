@@ -1,0 +1,40 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+1
+N
+2
+''
+1
+S
+2
+''
+4
+1
+46
+'Nombre y signo por favor (todo en minuscula)'
+5
+1
+3
+N,S
+7
+0
+1
+9
+S='aries'
+4
+1
+23
+N,' no es aries, es ',S
+13
+4
+1
+16
+N, 'Si es aries'
+13
+1

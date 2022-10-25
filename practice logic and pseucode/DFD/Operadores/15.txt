@@ -1,0 +1,7 @@
+
+15.Tres personas deciden invertir su dinero para fundar un empresa. Cada una de ellas invierte una cantidad distinta. Obtener el porcentaje que cada quien invierte con respecto a la cantidad total invertida.
+==================================================================================================
+
+Entrada = cantidad invertida por cada persona
+
+Salida = Porcentaje de inversion de cada uno

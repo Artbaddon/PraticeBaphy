@@ -1,0 +1,82 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+N
+2
+''
+1
+G
+2
+''
+1
+E
+1
+0
+4
+1
+20
+'Cual es su nombre?'
+5
+1
+1
+N
+4
+1
+18
+'Que edad tiene? '
+5
+1
+1
+E
+4
+1
+31
+'Con que genero se identifica?'
+5
+1
+1
+G
+7
+0
+1
+13
+G='masculino'
+7
+0
+1
+5
+E>=18
+4
+1
+72
+N,' es de genero ',G,' y tiene ',E,' años por lo tanto es menor de edad'
+13
+4
+1
+72
+N,' es de genero ',G,' y tiene ',E,' años por lo tanto es mayor de edad'
+13
+13
+7
+0
+1
+5
+E>=18
+4
+1
+72
+N,' es de genero ',G,' y tiene ',E,' años por lo tanto es menor de edad'
+13
+4
+1
+72
+N,' es de genero ',G,' y tiene ',E,' años por lo tanto es mayor de edad'
+13
+13
+1

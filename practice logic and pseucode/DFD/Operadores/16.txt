@@ -1,0 +1,9 @@
+16. Volumen y Área de una Esfera. (Propuesto)
+==================================================================================================
+
+Entrada = radio
+
+Salida = volumen y area de la esfera
+
+Se hacen las respectivas operaciones teniendo encuenta que pi esta aproximado, 4pi r^2 es el area
+y su volumen es de 4/3 pi r^3

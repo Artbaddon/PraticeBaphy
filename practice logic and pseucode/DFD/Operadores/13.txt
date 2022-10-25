@@ -1,0 +1,10 @@
+13. Un maestro desea saber que porcentaje de hombres y que porcentaje de mujeres hay en un grupo de estudiantes.
+
+==================================================================================================
+
+Entrada = numero de hombres y mujeres del salon	
+
+
+Salida = porcentaje de hombres y mujeres respectivamente
+
+En este problema de primera mano se suman las cantitades de los estudiantes y dependiendo el total, se hace una division, numero de hombres dividido total estudiantes, es el porcentaje de hombres y asi sucesivamente con las mujeres.

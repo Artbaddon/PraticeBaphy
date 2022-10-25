@@ -1,6 +1,5 @@
-
+15. Hacer un programa que simule el lanzamiento de una moneda.
 ==================================================================================================
 
-Entrada = 
-
-Salida = 
+Cara = 1
+Sello = 2

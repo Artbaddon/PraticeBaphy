@@ -1,0 +1,35 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+4
+lado
+1
+0
+4
+1
+35
+' Cuanto mide un lado de su cubo? '
+5
+1
+4
+lado
+6
+2
+4
+area
+10
+6*(lado^2)
+7
+volumen
+6
+lado^3
+4
+1
+101
+'El area y volumen de un cubo con lado ', lado,'u es de ',area,'u^2 y ',volumen,'u^3 respectivamente'
+1

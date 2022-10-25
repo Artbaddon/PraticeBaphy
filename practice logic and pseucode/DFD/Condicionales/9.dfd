@@ -1,0 +1,74 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+6
+NumCam
+1
+0
+3
+Pca
+1
+0
+4
+1
+31
+'Cuantas camisas ha adquirido?'
+5
+1
+5
+NumCa
+4
+1
+23
+'Cuanto vale cada una?'
+5
+1
+3
+Pca
+6
+1
+3
+VTC
+9
+NumCa*Pca
+7
+0
+1
+8
+NumCa >3
+6
+2
+2
+D2
+8
+VTC*0.10
+3
+PF2
+6
+VTC-D2
+4
+1
+120
+'Por haber adquirido ',NumCa,' camisas/a tiene un descuento del 10%, por lo tanto su compra tiene un valor de ', PF2,'$'
+13
+6
+2
+2
+D1
+8
+VTC*0.20
+3
+PF3
+6
+VTC-D1
+4
+1
+119
+'Por haber adquirido ',NumCa,' camisas, tiene un descuento del 20%, por lo tanto su compra tiene un valor de ', PF3,'$'
+13
+1

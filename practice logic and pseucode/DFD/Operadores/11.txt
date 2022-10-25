@@ -1,0 +1,9 @@
+11.Calcular la cantidad de segundos que están incluidos en el numero de horas, minutos y segundos ingresados por el usuario.
+==================================================================================================
+
+Entrada = Horas, Minutos, Segundos
+
+Salida = segundos ya operados
+
+Se crean las variables para los 3 datos, se procede a convertir cada uno a segundos
+en caso de las horas se multiplica por 3600 y en los minutos por 60

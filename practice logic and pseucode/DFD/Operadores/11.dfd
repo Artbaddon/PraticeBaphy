@@ -1,0 +1,47 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+H
+1
+0
+1
+M
+1
+0
+1
+S
+1
+0
+4
+1
+74
+'Ingrese numero de horas, minutos y segundos respectivamente a convertir '
+5
+1
+5
+H,M,S
+6
+3
+2
+HS
+6
+H*3600
+2
+MS
+4
+M*60
+5
+Total
+7
+HS+MS+S
+4
+1
+98
+'La cantidad de ', H,'  h ,', M,' m ,',' y ',  S,'s ','Equivale a un total de ',Total,' segundos' 
+1

@@ -1,0 +1,8 @@
+10. En un supermercado se hace una promoción, mediante la cual el cliente obtiene un descuento dependiendo de un número que se escoge al azar. Si el numero escogido es menor que 74 el descuento es del 15% sobre el total 
+de la compra, si es mayor o igual a 74 el descuento es del 20%. Obtener cuanto dinero se le descuenta. 
+
+==================================================================================================
+
+Entrada = Total compra, numero al azar		
+
+Salida = En caso de tener un numero mayor o igual a 74 se muestra el descuento del 20% y el precio final, por el contrario al sacar un numero menor a 74, se hace un 15% de descuento sobre el total

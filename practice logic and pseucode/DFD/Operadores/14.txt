@@ -1,0 +1,8 @@
+14. Volumen y Área de un Cubo
+==================================================================================================
+
+Entrada = Valor lado
+
+Salida = Valor area y volumen
+
+Aca lo que se hace es primero hallar el area con la formula 6*(lado^2) y el volumen con lado^3

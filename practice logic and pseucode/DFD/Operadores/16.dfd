@@ -1,0 +1,39 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+5
+radio
+1
+0
+2
+pi
+6
+3.1416
+4
+1
+30
+'Digite el radio de su esfera'
+5
+1
+5
+radio
+6
+2
+4
+area
+16
+(4*pi)*(radio^2)
+7
+volumen
+18
+(4/3*pi)*(radio^3)
+4
+1
+92
+'El area y volumen de una esfera de radio ',radio, 'u , es de ', area,'u^2 y ',volumen,'u^3'
+1

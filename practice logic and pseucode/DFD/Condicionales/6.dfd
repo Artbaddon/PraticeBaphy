@@ -1,0 +1,50 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+1
+6
+Horast
+1
+0
+4
+1
+40
+'Cuantas horas trabajo en este semana? '
+5
+1
+6
+Horast
+6
+3
+4
+Ht40
+9
+Horast*16
+2
+he
+9
+Horast-40
+3
+Het
+13
+(he*20)+40*16
+7
+0
+1
+10
+Horast<=40
+4
+1
+97
+'Su sueldo por haber trabajado 40 horas y ademas un total de ',he,', horas extra, es de ',het,'$'
+13
+4
+1
+66
+'Su sueldo por haber trabajado 40 horas semanales es de ',Ht40,'$'
+13
+1

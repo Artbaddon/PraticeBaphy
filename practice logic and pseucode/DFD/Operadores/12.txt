@@ -1,0 +1,9 @@
+12.Hacer un Programa que obtenga la media geométrica de tres números. (Propuesto)
+
+==================================================================================================
+
+Entrada = Tres numeros	
+
+Salida = media geometrica de los 3 numeros
+
+Formula=sqrt((n1*n2*n3))

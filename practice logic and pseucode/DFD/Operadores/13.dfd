@@ -1,0 +1,43 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+3
+hom
+1
+0
+3
+muj
+1
+0
+4
+1
+61
+'Cuantos hombres y mujeres hay en el salon respectivamente? '
+5
+1
+8
+hom, muj
+6
+3
+3
+thm
+7
+hom+muj
+2
+ph
+14
+(hom/thm )*100
+2
+pm
+13
+(muj/thm)*100
+4
+1
+69
+'El porcentaje de hombres es de ', ph,'% y de mujeres es de ',pm,'%' 
+1

@@ -1,6 +1,6 @@
-
+ 4.Dado 3 números Calcular el Mayor 
 ==================================================================================================
 
-Entrada = 
+Entrada = los 3 numeros	
 
-Salida = 
+Salida = el mayor 

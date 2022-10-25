@@ -1,0 +1,21 @@
+13. Ecuaciones de Segundo Grado: Ax^2 + Bx + C
+==================================================================================================
+
+Entrada = Datos a, b, c	
+
+
+Salida = r1,r2
+
+algoritmo: 
+
+D= b*b - 4*a*c
+
+F = (-b+- sqrt(d))/2*a
+
+d>=0
+
+r1 = (-b + sqrt(d))/2*a
+r2 = (-b - sqrt(d))/2*a
+
+D<0
+La ecuacion no tiene solucion real

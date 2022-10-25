@@ -1,0 +1,39 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+2
+n1
+1
+0
+2
+n2
+1
+0
+2
+n3
+1
+0
+4
+1
+24
+'Ingrese los 3 numeros '
+5
+1
+8
+n1,n2,n3
+6
+1
+2
+mg
+16
+((n1*n2*n3)^1/3)
+4
+1
+70
+'La media geometrica de los numeros', n1, ',', n2,' y', n3, ' es ', mg
+1
