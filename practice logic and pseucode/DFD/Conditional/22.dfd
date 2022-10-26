@@ -1,0 +1,62 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+2
+n1
+1
+0
+2
+n2
+1
+0
+4
+1
+22
+'Digite ambos numeros'
+5
+1
+5
+n1,n2
+7
+0
+1
+12
+n1 mod 2 = 0
+7
+0
+1
+12
+n2 mod 2 = 0
+4
+1
+42
+'Los numeros ',n1,' y' ,n2, ' son impares'
+13
+4
+1
+60
+'El numero ', n1, ' es impar pero el numero ',n2,' es par'  
+13
+13
+7
+0
+1
+12
+n2 mod 2 = 0
+4
+1
+57
+'El numero ',n1,' es par pero el numero ',n2, ' es impar'
+13
+4
+1
+37
+'Los numeros ',n1,' y ',n2,' son par'
+13
+13
+1

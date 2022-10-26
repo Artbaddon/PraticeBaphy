@@ -1,0 +1,25 @@
+
+21. Que lea una hora en hora:minutos:segundos y diga la hora que es un segundo después.
+==============================================================================
+
+Entrada = Horas minutos y segundos
+
+Salida = las horas minutos y segundos pero con 1 segundos mas
+
+algoritmo 
+
+minutos >59
+minutos 0		
+
+horas > 23
+horas 0		
+
+segundos > 59
+seg 0
+
+minutos = minutos +1
+
+	minutos > 59
+	minutos = 0
+		horas > 23
+		horas = 0

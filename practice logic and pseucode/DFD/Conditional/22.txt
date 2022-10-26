@@ -1,0 +1,6 @@
+22. Hacer un programa que tome dos números y diga si ambos son pares o impares.
+==============================================================================
+
+Entrada = los dos numeros	
+
+Salida = si los 2 son pares o impares

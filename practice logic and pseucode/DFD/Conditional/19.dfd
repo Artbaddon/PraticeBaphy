@@ -1,0 +1,50 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+a
+1
+0
+1
+b
+1
+0
+1
+c
+1
+0
+4
+1
+25
+'Digite 3 numeros random'
+5
+1
+5
+a,b,c
+6
+1
+1
+d
+3
+a+b
+7
+0
+1
+5
+a+b=c
+4
+1
+111
+'Los numeros ',a,' + ',b, ' dan como resultado el numero ', d,' por lo tanto la suma de a y b no es igual a c' 
+13
+4
+1
+108
+'Los numeros ',a,' + ',b, ' dan como resultado el numero ', d,' por lo tanto la suma de a y b es igual a c' 
+13
+1

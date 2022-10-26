@@ -3,4 +3,4 @@
 
 Entrada = Precio moto, Marca
 
-Salida = Marca moto y precio final
+Salida = Marca moto y precio final con descuento

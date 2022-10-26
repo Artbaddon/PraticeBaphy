@@ -1,0 +1,6 @@
+20. Hacer un programa Que tome tres números y diga si la multiplicación de los dos primeros es igual al tercero.
+==============================================================================
+
+Entrada = 
+
+Salida = 

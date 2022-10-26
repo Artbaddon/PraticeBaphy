@@ -1,0 +1,6 @@
+19. Hacer un programa que pida tres números e indicar si el tercero es igual a la suma del primero y el segundo. 
+==================================================================================================
+
+Entrada = numeros a,b,c	
+
+Salida = los numeros a, b y c e indicar si la suma de a y b es c

@@ -1,0 +1,7 @@
+18.Hacer un programa que pida tres números y detecte si se han introducido en orden creciente. (Propuesto).
+==================================================================================================
+
+Entrada = los 3 numeros a,b,c
+
+
+Salida = un aviso donde se diga si los numeros estan en orden creciente

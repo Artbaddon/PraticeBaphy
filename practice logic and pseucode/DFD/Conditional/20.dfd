@@ -1,0 +1,50 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+3
+1
+a
+1
+0
+1
+b
+1
+0
+1
+c
+1
+0
+4
+1
+32
+'Digite tres numeros cualquiera'
+5
+1
+5
+a,b,c
+6
+1
+1
+d
+3
+a*b
+7
+0
+1
+5
+a*b=c
+4
+1
+96
+'La multiplicacion de ',a,'*',b,' da como resultado el numero ', d, ' por tanto no es igual a c'
+13
+4
+1
+93
+'La multiplicacion de ',a,'*',b,' da como resultado el numero ', d, ' por tanto es igual a c'
+13
+1
