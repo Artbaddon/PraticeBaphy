@@ -1,6 +1,13 @@
-
+5. Sumar 1-2+3-4... 
 ==================================================================================================
 
-Entrada = 
+Entrada = numero
 
-Salida = 
+Salida = suma
+
+numeros pares = negativos
+numeros impraes = positivos
+
+suma = 1+3+5...
+sum1= -2-4-6...
+sumat = suma+sum1

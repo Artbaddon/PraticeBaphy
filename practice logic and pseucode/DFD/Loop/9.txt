@@ -1,6 +1,6 @@
-
+9. Suma de Factoriales 
 ==================================================================================================
 
-Entrada = 
+Entrada = factoriales a sumar
 
-Salida = 
+Salida = la suma de los factoriales elegidos

@@ -1,6 +1,7 @@
+7. Numero Primo
 
 ==================================================================================================
 
-Entrada = 
+Entrada = numero
 
-Salida = 
+Salida = si es primo o no

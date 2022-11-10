@@ -1,6 +1,7 @@
-
+6. Sumar pares desde n hasta m (Propuesto).
 ==================================================================================================
 
-Entrada = 
+Entrada = n y m
 
-Salida = 
+Salida = la suma de los pares desde n a m
+

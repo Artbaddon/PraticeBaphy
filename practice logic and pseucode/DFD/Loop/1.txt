@@ -1,6 +1,7 @@
-
+1. Suma de los n primeros números
 ==================================================================================================
 
-Entrada = 
+Entrada = numero
 
-Salida = 
+Salida =  suma
+

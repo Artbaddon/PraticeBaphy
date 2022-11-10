@@ -1,0 +1,6 @@
+2. Digite un número, si el numero supera a 10, multiplique los 10 primeros números, si no, súmelos (Propuesto).
+==================================================================================================
+
+Entrada = El numero
+
+Salida = el resultado 

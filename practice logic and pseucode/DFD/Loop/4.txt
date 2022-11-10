@@ -1,6 +1,9 @@
-
+4. Múltiplos de 5 desde 1 hasta 
 ==================================================================================================
 
-Entrada = 
+Entrada = N numeros
 
-Salida = 
+Salida = Los multiplos comprendidos entre el 1 y el valor digitado por el usuario
+
+Se utiliza el ciclo for con una variable iteradora que va contando de 1 a 1 y si i puede dividirse por 5 y su residuo es 0, se mostrara en pantalla si cumple esa misma condicional
+

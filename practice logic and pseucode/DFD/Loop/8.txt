@@ -1,6 +1,7 @@
+8. Factorial de un numero
 
 ==================================================================================================
 
-Entrada = 
+Entrada = NUmero
 
-Salida = 
+Salida = factorial del numero
