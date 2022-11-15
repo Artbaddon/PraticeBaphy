@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <title>Document</title>
+    <title>MI CV</title>
 </head>
 
 <body>
@@ -18,8 +18,8 @@
             <!-- Description -->
             <div class="description">
                 <h2 class="descripcion-profesion">Front End Developer</h2>
-                <h1>Sebastian Sotelo</h1>
-                <p>
+                <h1 class="nombre">Sebastian Sotelo</h1>
+                <p class="texto-descripcion">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
                     et
                     dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas
@@ -29,22 +29,24 @@
                 </p>
             </div>
             <!-- Proyectos -->
-            <div class="projects">
-                <ol>
+            <div class="Projects">
+                <h3 class="titulo-seccion-principal">Projects</h3>
+                <ol class="lista-proyectos">
                     <li>
-                        <a href="https://barbershop.goit.global/">https://barbershop.goit.global/
+                        <a class="link-proyectos" href="https://barbershop.goit.global/">https://barbershop.goit.global/
                         </a>
-                        <span>........</span>
+                        <span class="puntos-proyectos">.......</span>
                         <span>[ HTML5, CSS3 ]</span>
                     </li>
                     <li>
-                        <a href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
-                        <span>........</span>
+                        <a class="link-proyectos"
+                            href="https://cryptohub.goit.global/">https://cryptohub.goit.global/</a>
+                        <span class="puntos-proyectos">.........</span>
                         <span>[ JavaScript ]</span>
                     </li>
                     <li>
-                        <a href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
-                        <span>........</span>
+                        <a class="link-proyectos" href="https://kidslike.goit.global/">https://kidslike.goit.global/</a>
+                        <span class="puntos-proyectos">............</span>
                         <span>[ React.js, Node.js ]</span>
                     </li>
                 </ol>
@@ -53,12 +55,12 @@
             </div>
             <!-- Experiencia laboral -->
             <div class="experience">
-                <h3>Work Experience</h3>
+                <h3 class="titulo-seccion-principal">Work Experience</h3>
                 <!-- Empresa 1 -->
                 <div>
-                    <h4>Front-End Developer Freelance </h4>
-                    <p>September 2019 - up to now | Country</p>
-                    <ul>
+                    <h4 class="puesto-empresa">Front-End Developer <span class="texto-naranja">Freelance</span> </h4>
+                    <p class="periodo-empresa">September 2019 - up to now | Country</p>
+                    <ul class="lista-experiencia">
                         <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
                         <li>Lorem ipsum dolor sit amet consectetur.</li>
                         <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. A omnis ea quod!</li>
@@ -68,9 +70,9 @@
                 <!-- Empresa 2 -->
 
                 <div>
-                    <h4>Manager Glory New</h4>
-                    <p>March 2015 - October 2018 | Country</p>
-                    <ul>
+                    <h4 class="puesto-empresa">Manager <span class="texto-naranja">Glory New</span></h4>
+                    <p class="periodo-empresa">March 2015 - October 2018 | Country</p>
+                    <ul class="lista-experiencia">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore
                             magna
                             aliqua. </li>
@@ -80,9 +82,9 @@
                 </div>
                 <!-- Empresa 3 -->
                 <div>
-                    <h4>Manager Glory LLC </h4>
-                    <p>June 2014 - February 2015 | Country</p>
-                    <ul>
+                    <h4 class="puesto-empresa">Manager<span class="texto-naranja"> Glory LLC</span> </h4>
+                    <p  class="periodo-empresa">June 2014 - February 2015 | Country</p>
+                    <ul class="lista-experiencia">
                         <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </li>
                         <li>Quis ipsum suspendisse ultrices gravida.</li>
                         <li>Risus commodo viverra maecenas. </li>
@@ -90,10 +92,10 @@
                 </div>
                 <!-- Educacion -->
                 <div class="education">
-                    <h3>Education</h3>
-                    <p>National University</p>
-                    <span>Management</span>
-                    <p>September 2009 - June 2014 | Country</p>
+                    <h3 class="titulo-seccion-principal">Education</h3>
+                    <p class="educacion-subtitulo texto-naranja">National University</p>
+                    <span class="carrera">Management</span>
+                    <p class="periodo-estudio">September 2009 - June 2014 | Country</p>
                 </div>
 
             </div>
@@ -102,7 +104,7 @@
 
         <!-- Informacion secundaria -->
         <aside class="informacion-lateral">
-            <img src="imagenes/photo.jpg" alt="Foto Cv" width="300px">
+            <img src="imagenes/photo.png" alt="Foto Cv" width="300px">
             <!-- Contactos -->
             <div class="contactos">
                 <h3 class="titulo-lateral">Contacts</h3>
