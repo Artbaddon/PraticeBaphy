@@ -19,6 +19,7 @@ h1.titulo {
   top: 0;
   height: 40px;
 }
+
 h1 {
   padding: 10px;
 }
@@ -49,7 +50,7 @@ nav ul li a {
   text-decoration: none;
   padding: 13px;
   font-size: 20px;
-font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 nav ul li a:hover {
@@ -62,6 +63,7 @@ nav ul li a:hover {
   display: flex;
 
 }
+
 .femto {
   width: 20%;
   display: flex;
@@ -80,11 +82,11 @@ nav ul li a:hover {
 }
 
 .casca {
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto;
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 }
 
 .titulo {
@@ -94,11 +96,13 @@ nav ul li a:hover {
   width: 20%;
   margin: 0 auto;
 }
+
 #Seccion1,
 #Seccion2,
 #Seccion3 {
   margin-top: 20px;
 }
+
 #inicio {
   margin-top: 100px;
   padding-top: 20px;
@@ -116,9 +120,12 @@ p.text {
   padding: 2px;
   margin-top: 10px;
 
-  
 
 
+
+}
+section{
+  border: 2px solid black;
 }
 
 #footer {
@@ -127,9 +134,9 @@ p.text {
   width: 100%;
 
   color: white;
-    padding: 20px 0;
-    font-size: 20px;
-    margin-top: 10px;
+  padding: 20px 0;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 #lateral {
@@ -141,23 +148,27 @@ p.text {
   height: fit-content;
   background-color: rgb(0, 0, 0);
   margin-right: 13%;
+  color: white;
 }
 
-#lateral form{
-    padding-top: 20px;
-    
+#lateral form {
+  padding-top: 20px;
+
 }
-legend, .submit{
-    font-family: 'Courier New', Courier, monospace;
-    margin-bottom: 10px;
-font-weight: bolder;
-font-size: 20px;
+
+legend,
+.submit {
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 10px;
+  font-weight: bolder;
+  font-size: 20px;
 }
 
 footer {
   position: relative;
   text-align: center;
 }
+
 .fem {
   margin-top: 20px;
 }
