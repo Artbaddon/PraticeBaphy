@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Caninos y felinos</title>
+  </head>
+  <body>
+    
+    <header>
+      <div id="logos">
+        <h1>Caninos y felinos</h1>
+        <h2>Centro Veterinario</h2>
+        <img id="logo" src="img/caninos_y_felinos_web.gif" alt="" />
+      </div>
+    </header>
+    <nav class="navbar">
+      <ul>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="guarderia.html">Guarderia</a></li>
+        <li><a href="promociones.html">Promociones</a></li>
+      </ul>
+    </nav>
+    <aside>
+      <form action="" method="post">
+        <legend>Solicitar cita medica</legend>
+
+        <label for="nombres">Nombres </label>
+        <input
+          id="nombres"
+          type="text"
+          placeholder="ingrese el nombre"
+          required
+        />
+
+        <label for="Servicios">Servicios</label>
+        <select name="servicios" id="Servicios" required>
+          <option value="none">--seleccione un servicio--</option>
+          <option value="Spa">Aseo mascota</option>
+          <option value="Vet">Veterinario</option>
+          <option value="Val">Valoracion medica</option>
+          <option value="venta">Venta de medicamentos</option>
+          <option value="clinica">Clinica</option>
+        </select>
+        <label for="fecha">Fecha</label>
+        <input type="date" id="fecha" required />
+
+        <label for="hora">Hora</label>
+        <input type="time" name="" id="" />
+        <input type="submit" value="Solicitar cita" required />
+      </form>
+    </aside>
+    <div id="contenido">
+      <section>
+        <img id="perro" src="img/cuidados-del-perro.jpg" alt="" />
+        <div id="parrafo1">
+          <h2>Cuidados y educacion para su perro</h2>
+          <p>
+            Cuidar a un perro implica compromiso y atención. En general, es
+            importante procurar una alimentación saludable para ellos, así como
+            favorecer su actividad física y estimular su socialización. También
+            es fundamental ofrecerle cuidados y revisiones veterinarias para
+            controlar su estado de salud y mejorar su calidad de vida. Si se
+            trata de un cachorro recién nacido, los cuidados del perro serán
+            continuos, incluyendo el amamantamiento con leche materna o
+            sustitutivo, y el destete, que se inicia a partir de las cuatro
+            semanas de vida y de forma progresiva. Mientras que, si se trata de
+            un perro de edad más avanzada que adoptamos en casa, hay algunas
+            indicaciones a tener en cuenta, como darle mucho cariño, seguridad y
+            comprensión. Y en este caso, lo mejor es sacarle en paseos cortos y
+            frecuentes para que se vaya habituando poco a poco a su nueva rutina
+            fuera de la protectora o refugio.
+          </p>
+        </div>
+      </section>
+      <section>
+        <div id="parrafo2">
+          <img id="gato" src="img/cuidados-de-un-gato.jpg" alt="" />
+          <h2>Cuidados de los gatos</h2>
+          <p>
+            Tu gatito necesita tres cosas de ti: mucha atención, una buena
+            alimentación, y un poco de ayuda para su aseo.Los gatitos se lamen
+            el pelo para quitarse los pelos muertos y por ello pueden llegar al
+            estómago y el intestino bolas de pelo causantes de vómitos o
+            estreñimiento, lo que no os gusta ni a él ni a ti. Por eso, deberás
+            comenzar a cepillarle el pelo a conciencia y regularmente desde
+            pequeño. Si es un gatito de pelo corto, cepíllalo una vez a la
+            semana. Si es de pelo largo, tendrás que hacerlo a diario, porque
+            tiende a formar nudos.
+          </p>
+        </div>
+      </section>
+    </div>
+    <footer></footer>
+  </body>
+</html>
