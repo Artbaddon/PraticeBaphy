@@ -11,20 +11,21 @@
       <div id="logos">
         <h1>Caninos y felinos</h1>
         <h2>Centro Veterinario</h2>
-        <img id="logo" src="img/caninos_y_felinos_web.gif" alt="" />
+        <a href="index.html"id="logoperro"><img id="logo" src="img/caninos_y_felinos_web.gif" alt="" /></a>
       </div>
     </header>
     <nav class="navbar">
       <ul>
-        <li><a href="">Productos</a></li>
+        <li><a href="#productos">Productos</a></li>
         <li><a href="#servicios">Servicios</a></li>
-        <li><a href="guarderia.html">Guarderia</a></li>
-        <li><a href="promociones.html">Promociones</a></li>
+        <li><a href="#guarderia">Guarderia</a></li>
+        <li><a href="#promociones">Promociones</a></li>
         
-          <li class="log"><a href="" class="log"><img id="log" src="img/user.png" alt=""></a></li>
+          <li class="log"><a href="login.html" class="log"><img id="log" src="img/user.png" alt=""></a></li>
         </a>
       </ul>
     </nav>
+
     <aside>
       <form action="" id="cita" method="post">
         <legend>Solicitar cita medica</legend>
@@ -36,7 +37,15 @@
           placeholder="ingrese el nombre"
           required
         /><br>
-
+        <label for="mascota">
+          ¿Qué mascota tiene?
+        </label>
+        <select name="mascota" id="mascota">
+          <option value="none">-seleccione-</option>
+          <option value="perro">perro</option>
+          <option value="gato">gato</option>
+          <option value="otros">otros</option>
+        </select>
         <label for="Servicios">Servicios</label><br>
         <select name="servicios" id="Servicios" required>
           <option value="none">--seleccione un servicio--</option>
@@ -94,17 +103,118 @@
           </p>
         </div>
       </section>
+    
       <h1 class="title">Productos</h1>
       <section id="productos">
+        <div class="menu">
+          <h2 class="menu-titulo">
+            Algunos productos que ofrecemos:
+          </h2>
+          <div class="grupo-menu">
+          <div class="item-menu">
+            <img src="img/Alimento-Perro-Cachorro-X-1kg-432917_a.webp" alt="comida-perro-cachorro" class="menu-item-imagen">
+            <div class="menu-item-text">
+              <h3 class="menu-item-heading">
+                <span class="menu-item-nombre">Comida perro cachorro </span>
+                <span class="menu-item-precio">
+                  $10.000
+                </span>
+         
+              </h3>
+              <p class="">Comida para cachorros medianos 1000gr
 
+              </p>
+            </div>
+          </div>
+         <div class="item-menu">
+          <img src="img/comida-gato-cachorro.jpg" alt="comida-gato-cachorro" class="menu-item-imagen">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-nombre">Comida gato cachorro</span>
+              <span class="menu-item-precio">$10.000</span>
+            </h3>
+            <p>Comida para gatitos de menos de 1 año</p>
+          </div>
+          </div>
+         <div class="item-menu">
+          <img src="img/perro-adulto.jpg" alt="comida-perro-adulto"class="menu-item-imagen">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-nombre">Comida perro adulto</span>
+              <span class="menu-item-precio">$60.000</span>
+            </h3>
+            <p>Bulto de 30kg de comida para perro adulto</p>
+          </div>
+          </div>
+         <div class="item-menu">
+          <img src="img/comida-gato-adulto.jpg" alt="comida-gato-adulto" class="menu-item-imagen">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-nombre">Comida gato adulto</span>
+              <span class="menu-item-precio">$25.000</span>
+            </h3>
+            <p>
+              Comida para gatos de mediana edad 2kg
+            </p>
+          </div>
+         </div>
+         <div class="item-menu">
+          <img src="img/correa-perro.jpg" alt="correa-perro" class="menu-item-imagen">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-nombre">Correa para perro</span>
+              <span class="menu-item-precio">
+                $30.000
+              </span>
+            </h3>
+            <p>Arnés y correa para perro de 1 metro de largo</p>
+          </div>
+         </div>
+         <div class="item-menu">
+          <img src="img/correa-gato.jpg" alt="correa-gato" class="menu-item-imagen">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-nombre">Correa para gato</span>
+              <span class="menu-item-precio">$35.000</span>
+            </h3>
+            <p>Arnés para gato, cómoda sujeción 1m de largo</p>
+          </div>
+          </div>
+         <div class="item-menu">
+          <img src="img/juguete perro.jpg" alt="juguete-perro" class="menu-item-imagen">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-nombre">Juguete para perro</span>
+              <span class="menu-item-precio">$30.000</span>
+            </h3>
+            <p>Juguete para perro multifuncional</p>
+          </div>
+         </div>
+         <div class="item-menu">
+          <img src="img/juguete-gato.webp" alt="juguete-gato" class="menu-item-imagen">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-nombre">Juguete para gato</span>
+              <span class="menu-item-precio">$20.000</span>
+            </h3>
+            <p>divertido juguete para que tu gato se divierta</p>
+          </div>
+          
+         </div>
+        </div>
+      
+      </div>
+        
+
+        
       </section>
       <h1 class="title">SERVICIOS</h1>
       <section id="servicios">
         
         <div id="aseo">
-         <h2 class="title">Aseo</h2>
+         <h2 >Aseo</h2>
          <figure class="aseo">
-           <img src="img/download.jpeg" alt="aseo">
+           <img id="perro-aseo" src="img/download.jpeg" alt="aseo">
          </figure>
         
          <p class="parrafo">Caninos y felinos cuenta con el servicio de baño, grooming y peluqueria canina y felina siempre enfocado a realzar la belleza de la mascota, guiándonos por los estándares mundiales de cada una de las razas, implementando técnicas de vanguardia y utilizando materiales e insumos de primera calidad, siempre dirigidos a disminuir el estrés durante el servicio para obtener una experiencia agradable y de máximo bienestar para la mascota logrando el mejor resultado, así como la tranquilidad y seguridad de nuestros clientes. </p>
@@ -114,13 +224,89 @@
          <figure class="veterinaria">
            <img class="img" src="img/Nota-cuidados-1.webp" alt="">
          </figure>
-         <p class="parrafo">Caninos y felinos cuenta con un excelente equipo de profesionales de médicos veterinarios altamente calificados en el sector de la medicina para animales, capacitados de ofrecer una calidad de vida a sus mascotas llegando a los diagnósticos que permitirán enfocar los tratamientos de manera eficiente y oportuna haciendo seguimiento a la historia clínica para recomendar los procesos adecuados. En nuestras 8 sedes podrás llevar a tu mascota para que sea atendida por nuestros profesionales en medicina animal ya sea para procedimientos de rutina como desparasitar, limpieza de oidos, corte de uñas, vacunas así como procedimientos de emergencia o tratamientos especiales por enfermedad.</p>
+         <p class="parrafo derecha">Caninos y felinos cuenta con un excelente equipo de profesionales de médicos veterinarios altamente calificados en el sector de la medicina para animales, capacitados de ofrecer una calidad de vida a sus mascotas llegando a los diagnósticos que permitirán enfocar los tratamientos de manera eficiente y oportuna haciendo seguimiento a la historia clínica para recomendar los procesos adecuados. En nuestras 8 sedes podrás llevar a tu mascota para que sea atendida por nuestros profesionales en medicina animal ya sea para procedimientos de rutina como desparasitar, limpieza de oidos, corte de uñas, vacunas así como procedimientos de emergencia o tratamientos especiales por enfermedad.</p>
    
          
         </div>
-        <div id="tienda"></div>
-        <div id="examenes"></div>
+        <div id="tienda">
+          <h2>Tienda</h2>
+          <img class="tienda" src="img/tienda.jpeg" alt="">
+          <p class="parrafo derecha">En nuestra tienda especializada encontrará artículos para su mascota y piensos de caidad y prescipción veterinaria. Dejese asesorar por nuestros veterinarios sobre cual es el antiparasitario, pipeta o collar mas adecuado para su mascota.
+            <br>
+            Permitanos que le asesoremos sobre la alimentación mas adecuada para su cachorro o perro. Además si su animal tiene algun problema de piel, digestivo, renal o sencillamente es obeso, diabético, o de alto rendimiento disponemos de dietas de alta calidad especificas para todo tipo de problemas.<br>
+
+            La alimentación es un aspecto muy importante en la salud de su perro, dejela en manos de los profesionales.<br>
    
+            Collares, camas, transportines, champus, productos dietéticos, todo de la maxima calidad y bajo la asesoria del profesional de los animales; el veterinario.
+            
+              </p>
+        </div>
+        <div id="examenes">
+          <h2 class="derecha">Laboratorio</h2>
+          <img id="laboratorio"src="img/thumb_2060983.jpeg" alt="">
+          <p class="parrafo derecha">
+            Ofrecemos todo tipo de análisis y pruebas de laboratorio tanto a nuestros pacientes como a pacientes de otras clínicas que nos cuentan con laboratorio propio.
+<Br>  
+ 
+
+HEMOGRAMA:
+Análisis de cuantitativo de células sanguíneas con la particularidad de que podemos diferenciar las cinco plobaciones de globulos blancos que tienen nuestros animales, aspecto imprecindible para poder diagnosticar ciertas enfermedades parasitarias, procesos crónicos o agudos, etcétera.<bR>
+
+En dos minutos tenemos los resultados para cualquier especie animal.<br>
+
+ANALISIS DE ORINA
+Podemos realizar análisis semicuantitavos de orina<br>
+
+PARASITOLOGIA
+Realizamos todo tipo de análisis para diagnosticar enfermedades producidas por parásitos internos y externos ya sea en muestras de heces como en raspados de piel en procesos dermatológicos de origen parasitario.
+
+ 
+          </p>
+        </div>
+   
+       </section>
+       <h1>Guarderia</h1>
+       <section id="guarderia">
+        <h2>Guaderia canina y felina</h2>
+       
+         
+          <img src="img/guaderiaperros.webp" alt="" class="guarderia-canina">
+        
+     
+        <p class="parrafo guarderia">
+          Te vas de vacaciones y no sabes con quién dejar a tu mascota, en Caninos y felinos nos enfocamos en dar el mejor cuidado a los gatos o perros, con profesionales veterinarios que brindan un trato amable y humano en su estadía en la guardería.<br>
+          Entre nuestras instalaciones contamos con guarderías para perros y gatos. Para acoger a tus mascotas, es imprescindible que estén vacunados al día y que sean desparasitados antes de su estancia. Salvo que necesiten dieta específica o de prescripción, serán alimentados con pienso de alta gama sin coste adicional<br>
+          
+
+Ideal para mascotas de casa, animales consentidos, geriátricos, o que requieran de una necesidad especial en un espacio tranquilo, seguro y con acompañamiento personalizado.<br>
+Contamos con áreas de guardería independientes por especie, de igual forma se separa ya sea felino o canino.
+Permitimos que tu mascota traiga sus objetos personales para que se sientan más a gusto.<br>
+Todas las mascotas que ingresan a nuestra guardería, cuentan con parámetros sanitarios exigidos de vacunas y anti pulgas para que estén siempre protegidos.<br>
+El costo del dia es de: <strong>$160.000</strong>
+        </p>
+      
+       </section>
+       <h1>Promociones</h1>
+       <section id="promociones">
+        <div class="promociones">
+          d
+        </div>
+ 
+        <div class="grupo-menu">
+        <div class="item-menu">
+          <img src="img/Alimento-Perro-Cachorro-X-1kg-432917_a.webp" alt="comida-perro-cachorro" class="menu-item-imagen">
+          <div class="menu-item-text">
+            <h3 class="menu-item-heading">
+              <span class="menu-item-nombre">Comida perro cachorro </span>
+              <span class="menu-item-precio">
+                $10.000
+              </span>
+       
+            </h3>
+            <p class="">Comida para cachorros medianos 1000gr
+
+            </p>
+          </div>
        </section>
       
     </div>
