@@ -7,7 +7,6 @@
     <title>Caninos y felinos</title>
   </head>
   <body>
-    
     <header>
       <div id="logos">
         <h1>Caninos y felinos</h1>
@@ -17,53 +16,58 @@
     </header>
     <nav class="navbar">
       <ul>
-        <li><a href="productos.html">Productos</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="">Productos</a></li>
+        <li><a href="#servicios">Servicios</a></li>
         <li><a href="guarderia.html">Guarderia</a></li>
         <li><a href="promociones.html">Promociones</a></li>
+        <a class=entrar href="Login">
+          <li><img src="" alt=""></li>
+        </a>
       </ul>
     </nav>
     <aside>
-      <form action="" method="post">
+      <form action="" id="cita" method="post">
         <legend>Solicitar cita medica</legend>
 
-        <label for="nombres">Nombres </label>
+        <label for="nombres">Nombres </label><br>
         <input
           id="nombres"
           type="text"
           placeholder="ingrese el nombre"
           required
-        />
+        /><br>
 
-        <label for="Servicios">Servicios</label>
+        <label for="Servicios">Servicios</label><br>
         <select name="servicios" id="Servicios" required>
           <option value="none">--seleccione un servicio--</option>
           <option value="Spa">Aseo mascota</option>
-          <option value="Vet">Veterinario</option>
-          <option value="Val">Valoracion medica</option>
-          <option value="venta">Venta de medicamentos</option>
-          <option value="clinica">Clinica</option>
-        </select>
-        <label for="fecha">Fecha</label>
-        <input type="date" id="fecha" required />
+          <option value="veterinaria">veterinaria</option>
+          <option value="venta">Venta productos</option>
+          <option value="examenes">Examenes</option>
+        </select><br>
+        <label for="fecha">Fecha</label><br>
+        <input type="date" id="fecha" required /><br>
 
-        <label for="hora">Hora</label>
-        <input type="time" name="" id="" />
-        <input type="submit" value="Solicitar cita" required />
+        <label for="hora">Hora</label><br>
+        <input type="time" name="" id="hora" />
+        
+        <input type="submit" id="submit" value="Solicitar cita" required />
       </form>
     </aside>
     <div id="contenido">
-      <section>
-        <img id="perro" src="img/cuidados-del-perro.jpg" alt="" />
+      <section id="cuidadop">
+        <div id="perro123">
+          <img id="perro" src="img/cuidados-del-perro.jpg" alt="" /></div>
+
         <div id="parrafo1">
-          <h2>Cuidados y educacion para su perro</h2>
+          <h2 class="titulo">Cuidados y educacion para su perro</h2>
           <p>
-            Cuidar a un perro implica compromiso y atención. En general, es
-            importante procurar una alimentación saludable para ellos, así como
-            favorecer su actividad física y estimular su socialización. También
-            es fundamental ofrecerle cuidados y revisiones veterinarias para
-            controlar su estado de salud y mejorar su calidad de vida. Si se
-            trata de un cachorro recién nacido, los cuidados del perro serán
+            Cuidar a un perro implica compromiso y atención. <br />En general,
+            es importante procurar una alimentación saludable para ellos, así
+            como favorecer su actividad física y estimular su socialización.
+            También es fundamental ofrecerle cuidados y revisiones veterinarias
+            para controlar su estado de salud y mejorar su calidad de vida. Si
+            se trata de un cachorro recién nacido, los cuidados del perro serán
             continuos, incluyendo el amamantamiento con leche materna o
             sustitutivo, y el destete, que se inicia a partir de las cuatro
             semanas de vida y de forma progresiva. Mientras que, si se trata de
@@ -75,10 +79,10 @@
           </p>
         </div>
       </section>
-      <section>
+      <section id="gato2">
         <div id="parrafo2">
           <img id="gato" src="img/cuidados-de-un-gato.jpg" alt="" />
-          <h2>Cuidados de los gatos</h2>
+          <h2>Cuidados de los gatos</h2> 
           <p>
             Tu gatito necesita tres cosas de ti: mucha atención, una buena
             alimentación, y un poco de ayuda para su aseo.Los gatitos se lamen
@@ -92,7 +96,34 @@
           </p>
         </div>
       </section>
+      <section id="servicios">
+        <div id="aseo">
+         <h2 class="titulo">Aseo</h2>
+         <figure class="aseo">
+           <img src="img/download.jpeg" alt="aseo">
+         </figure>
+         <p class="parrafo">Caninos y felinos cuenta con el servicio de baño, grooming y peluqueria canina y felina siempre enfocado a realzar la belleza de la mascota, guiándonos por los estándares mundiales de cada una de las razas, implementando técnicas de vanguardia y utilizando materiales e insumos de primera calidad, siempre dirigidos a disminuir el estrés durante el servicio para obtener una experiencia agradable y de máximo bienestar para la mascota logrando el mejor resultado, así como la tranquilidad y seguridad de nuestros clientes. </p>
+        </div>
+        <div id="veterinario">
+         <h2>Veterinario</h2>
+         <figure class="veterinaria">
+           <img src="" alt="">
+         </figure>
+         <p>Caninos y felinos cuenta con un excelente equipo de profesionales de médicos veterinarios altamente calificados en el sector de la medicina para animales, capacitados de ofrecer una calidad de vida a sus mascotas llegando a los diagnósticos que permitirán enfocar los tratamientos de manera eficiente y oportuna haciendo seguimiento a la historia clínica para recomendar los procesos adecuados. En nuestras 8 sedes podrás llevar a tu mascota para que sea atendida por nuestros profesionales en medicina animal ya sea para procedimientos de rutina como desparasitar, limpieza de oidos, corte de uñas, vacunas así como procedimientos de emergencia o tratamientos especiales por enfermedad.</p>
+   
+         
+        </div>
+        <div id="tienda"></div>
+        <div id="examenes"></div>
+   
+       </section>
+      
     </div>
-    <footer></footer>
+    <footer>
+      <h4>Contactame:</h4>
+      <h4>ssotelo69@soy.sena.edu.co</h4>
+      <h4>2671336g2 Sebastian Sotelo</h4>
+
+    </footer>
   </body>
 </html>
