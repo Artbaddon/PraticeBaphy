@@ -95,29 +95,33 @@ h2 {
 }
 
 #perro {
-    width: 33%;
+    width: 32%;
     float: left;
+    margin: 0;
     margin-top: 6%;
-    margin-left: 2%;
+    
     border: solid 3px black;
     border-radius: 20%;
    
 }
 #gato {
-    width: 33%;
+    width: 23%;
     float: left;
-    margin-right: 9%;
-    margin-top: 20px;
+    
+    margin: 0;
+    margin-top: 2%;
     border: double 3px black;
+    
 }
+
 
 section{
     margin: 0;
     margin-top: 19%;
-    width: 65%;
+    width: 72%;
     height: 60%;
-    background-color: rgb(7, 101, 138);
-    color: white;
+    background-color: #2b4353;
+    color: #ffffff;
     padding: 20px;
     border: dotted 3px black;
     border-radius: 4%;
@@ -125,21 +129,26 @@ section{
 }
 
 section#gato2{
-    margin-top: 30px;
+    margin-top: 7%;
+    width: 96%;
 }
 
 aside {
     float: right;
-    width: 25%;
+    width: 22%;
     height: 320px;
     position: relative;
-    margin-top: 6%;
-    margin-right: 4%;
+    font-family: 'Courier New', Courier, monospace;
+    margin-right: 1%;
     background-color: #2b4353;
     z-index: 2;
-    color: white;
+    color: #e8630a;
     border: 4px double black;
    
+}
+
+input::placeholder{
+    color: #e8630a;
 }
 
 aside input{
@@ -163,13 +172,27 @@ aside input{
 #cita input {
     border: solid double black;
 }
+input{
+    background-color: #2b4353;
+    color: #e8630a;
+    width: 20%;
+}
+select {
+    background-color: #2b4353;
+    color: #e8630a;
+}
+label,legend{
+    color: #e8630a;
+    font: bolder;
+    font-size: 2.5vh;
+}
 
 #submit {
     margin-top: 20px;
     color: #e8630a;
     background-color: #2b4353;
     height: 40px;
-    font-size: 2.4vh;
+    font-size: 2.2vh;
     font-family: 'Courier New', Courier, monospace;
 }
 
@@ -199,10 +222,16 @@ section#servicios{
 }
 .parrafo{
     display: inline-block;
-    width: 70%;
+    width: 66%;
     padding: 20px;
     font-size: 2.3vh;
+    text-align: justify;
+    margin-left: 40px;
+}
+.perro{
+    width: 53%;
     margin: 20px;
+    text-align: justify;
 }
 .aseo {
     float: left;
