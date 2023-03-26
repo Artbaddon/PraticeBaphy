@@ -299,10 +299,42 @@ label #submit {
   width: 80px;
   height: 80px;
   flex-shrink: 0;
+  object-fit: cover;
+  margin-right: 1.5em;
 }
 
 .menu-item-text {
   padding: 10px;
+  
+
+}
+.promocion{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+
+.promocion-titulo{
+    margin: 0;
+    padding-bottom: 1em;
+    margin: 2px solid #e8730a;
+}
+.promocion-grupo{
+    display: grid;
+    grid-template-columns: repeat 1fr;
+    
+    gap: 1.5em;
+    padding: 1.5em 0;
+}
+.promocion-item{
+    display: flex;
+}
+.promocion-img{
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+    object-fit: cover;
+    margin-right: 1.5em;
 }
 
 @media screen and (min-width: 992px) {
@@ -316,6 +348,15 @@ label #submit {
     width: 125px;
     height: 125px;
   }
+  .promocion-grupo{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.promocion-img{
+    width: 220px;
+    height: 220px;
+}
+
 }
 footer {
   width: 90%;
