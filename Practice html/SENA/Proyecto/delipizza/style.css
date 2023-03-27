@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    width: 100%;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  ;
+  }
+  
+  header {
+    width: 100%;
+    background-color: #c4c4c4;
+    height: 13%;
+    position: fixed;
+    top: 0;
+   
+  }
+
+  nav {
+    width: 100%;
+    background-color: #c4c4c4;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 13%;
+    z-index: 3;
+  }
+  nav ul {
+    list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  
+  nav ul li a:not(.log) {
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    padding: 2.3vh 8vh;
+   
+    font-size: 1.3vw;
+    font-family: "Courier New", Courier, monospace;
+  }
+  nav ul li a:hover:not(.log) {
+    background-color: white;
+    color: black;
+  }
+  
+  h1,
+  h4,h2 {
+    text-align: center;
+    font-weight: bolder;
+    font-family: "Courier New", Courier, monospace;
+    color: black;
+  }
+  
+  h1 {
+    padding-top: 10px;
+    font-size: 3.4vw;
+  }
+  h4 {
+    padding-left: 20px;
+    font-size: 1vw;
+  }
+  h1.title {
+    margin-top: 180px;
+    background-color: #aaaaaa;
+  }
+  .log {
+    height: 2rem;
+    padding-left:4rem;
+    
+  }
+  .container {
+    padding: 2rem;
+    width: 60%;
+    
+
+    margin: 0 auto;
+    margin-top: 6rem;
+
+  
+
+  }
+ .silder-wrapper{
+    position: relative;
+    max-width: 48rem;
+    margin: 0 auto;
+     border-radius: 10%;
+ }
+
+ .slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto ;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0,0%,0%,0.25);
+   
+ }
+ .slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: start;
+    object-fit: cover;
+ }
+ 
+ #promociones{
+    width: 60%;
+    margin: 0 auto;
+    background-color: #aaaaaa;
+ }
+ .img{
+    width: 100%;
+   height: 100%;
+   border-radius:10% ;
+   object-fit: cover;
+ }
+ 
+
+ .promociones-item{
+    --gap: 16px;
+    --num-cols: 3;
+    --row-height: 200px;
+    box-sizing: border-box;
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols),1fr);
+    grid-auto-rows: var(--row-height);
+    gap: var(--gap);
+    margin-bottom: 10vh;
+   
+ }
+
+ .large {
+    grid-column: span 3;
+ }
+ 
