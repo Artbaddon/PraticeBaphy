@@ -1,54 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
-   <link rel="stylesheet" href="estilo.css">
+  <title>formulario registro</title>
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+   <link rel="stylesheet" href="style-registro.css">
 </head>
 
 <body>
    
-    <header class="header">
-   <h1>DELIPIZZA</h1>
-    <h4>COMIDAS RAPIDAS</h4>
-    </header>
-
-<nav class="navbar">
-    <ul>
+  <header>
+    <div id="logo">
+      <h1><a href="index.html"> Delipizza</a></h1>
+    </div>
+  </header>
+  <nav class="navbar">
+    <ul class="barra-nav">
       <li><a href="#">INICIO</a></li>
       <li><a href="#">MENU</a></li>
       <li><a href="#">PERFIL</a></li>
-
-      <li>
-        <a href="" class="log"><img class="log" src="img/cart.svg" alt=""/></a>
-      </li>
-      <li>
-        <a href="login.html" class="log"
-          ><img class="log" src="img/person.svg" alt=""
-        /></a>
-      </li>
     </ul>
+    <div class="iconos">
+      <a href="login.html" class="usuario"><i class="ri-user-fill"></i></a>
+      <a href="carrito.html" class="carrito"
+        ><i class="ri-shopping-cart-2-fill"></i
+      ></a>
+    </div>
   </nav>
- 
     
     
     <section class="registro">
         <h2>REGISTRATE</h2>
-        <label for="firstname">nombres</label><br>
-        <input type="text" name="firstname" id="firstname" style="background-color: lightsalmon;"><br>
-        <label for="lastname">apellidos</label><br>
-        <input type="text" name="lastname" id="lastname" style="background-color: lightsalmon;"><br>
-        <label for="email">correo electronico</label><br>
-        <input type="email" name="email" id="email" style="background-color: lightsalmon;"><br>
-        <label for="direccion">direccion</label><br>
-        <input type="text" name="direccion" id="direccion" style="background-color: lightsalmon;"><br>
-        <label for="telefono">telefono</label><br>
-        <input type="text" name="telefono" id="telefono" style="background-color: lightsalmon;"><br>
-        <label for="pwd">contraseña</label><br>
-        <input type="password" id="pwd" name="pwd" style="background-color: lightsalmon;"><br><br>
-        <input type="submit" value="confirmar">
+        <form action="">
+        <label for="firstname"></label><br>
+        <input type="text" name="firstname" id="firstname" placeholder="Ingresa tu nombre" required><br>
+        <label for="lastname"></label><br>
+        <input type="text" name="lastname" id="lastname" placeholder="Ingresa tu apellido" required><br>
+        <label for="email"></label><br>
+        <input type="email" name="email" id="email" placeholder="Ingresa tu email" required><br>
+        <label for="direccion"></label><br>
+        <input type="text" name="direccion" id="direccion" placeholder="Ingresa tu direccion" required><br>
+        <label for="telefono"></label><br>
+        <input type="text" name="telefono" id="telefono" placeholder="Ingresa tu telefono" required><br>
+        <label for="pwd"></label><br>
+        <input type="password" id="pwd" name="pwd" placeholder="Contraseña" required><br><br>
+        <input type="submit" id="input" value="confirmar">
         <br>
+      </form>
         <p class="login1">Ya tienes cuenta? entra <a href="login.html"> acá</a></p>
         </div>
+
         
 
 
