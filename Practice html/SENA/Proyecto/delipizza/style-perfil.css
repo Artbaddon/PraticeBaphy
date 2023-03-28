@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
 }
-body{
+
+body {
   font-family: 'Courier New', Courier, monospace;
 }
 
@@ -19,10 +20,12 @@ header {
   font-size: 1.5rem;
   font-family: "Courier New", Courier, monospace;
 }
+
 header a {
   text-decoration: none;
   color: black;
 }
+
 nav {
   position: fixed;
   width: 100%;
@@ -32,16 +35,19 @@ nav {
   justify-content: center;
   background-color: #fa713b;
 }
+
 .barra-nav {
   display: flex;
   margin-bottom: 1px;
 }
+
 .barra-nav a {
   padding: 0rem 4rem;
   font-size: 2rem;
   margin: 0;
   transition: all 0.5s ease;
 }
+
 nav ul {
   list-style-type: none;
 }
@@ -57,9 +63,11 @@ nav ul li a {
   font-size: 1.4rem;
   font-family: "Courier New", Courier, monospace;
 }
+
 .iconos {
   font-size: 1.4rem;
 }
+
 .iconos a {
   text-decoration: none;
   color: black;
@@ -70,6 +78,7 @@ nav ul li a {
 .iconos a:hover {
   color: white;
 }
+
 nav ul li a:hover {
   background-color: black;
   color: white;
@@ -80,12 +89,14 @@ nav ul li a:hover {
   margin: 0 auto;
   margin-top: 100px;
 }
+
 .columnas {
   width: 100%;
   height: 100%;
   background-color: rgb(248, 115, 63, 60%);
   box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
 }
+
 .contenedor {
   --gap: 16px;
   --num-cols: 2;
@@ -96,65 +107,76 @@ nav ul li a:hover {
   grid-template-columns: repeat(var(--num-cols), 1fr);
   grid-auto-rows: var(--row-height);
   gap: var(--gap);
- 
+
 }
-.img{
+
+.img {
   width: 17rem;
-   
+
 }
-.img-perfil{
-  width: fit-content;
-  height: fit-content;
+
+.img-perfil {
+  width: 70%;
+  
   border: 1px solid black;
   margin: 50px;
   margin-top: 0;
 
- 
+
 }
+
 figcaption {
   width: 17rem;
   height: 10px;
   text-align: center;
   margin-top: 70px;
   padding-bottom: 20px;
-  
+
 }
 
-#b-editar-info{
+#b-editar-info {
   font-size: 2vh;
 }
-button#b-editar-info{
- float: right;
- margin-right: 30px;
- margin-bottom: 20px;
-}
 
-.info-user{
+
+
+.info-user {
   display: block;
-  width:23em;
+  width: 24em;
   height: 300px;
   float: right;
- margin-right: 40px;
- 
-}
-.info1{
-  text-align: center;
-  margin-right: 30px;
- 
-}
-h2.info1, p.parrafo,span.info2{
+  margin-right: 40px;
 
 }
-.info2{
-  margin-left: 40px;
+label,.enviar{
+  font-size: 20px;
 }
-p.info-n{
-  text-align: center;
-}
-.parrafo {
-margin-left: 80px;
+
+.nombre {
+  margin-right: 120px;
 
 }
-span.parrafo{
+input:not(.enviar){
+  font-size: 16px;
+  width: 150px;
+
+}
+input.email{
+  width: 310px;
+}
+.enviar{
+  margin-top: 30px;
+}
+.form{
+  margin-top: 40px;
+}
+
+.metodopago {
+  margin-left: 100px;
+
+}
+.info-user{
+  text-align: center;
  
+
 }
