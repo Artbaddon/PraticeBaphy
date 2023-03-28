@@ -1,0 +1,115 @@
+.grid{
+    width: 100%;
+    right: 0%;
+    left: 0%;
+}
+a{
+    color: white;
+}
+header{
+    grid-area: cab;
+    background-color:var(--theme-ui-colors-primary,#ff671b);
+    height: 82px;
+    position: fixed;
+    top:0%;
+    left: 0%;
+    right: 0%;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+header h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: darkgreen;
+}
+h1{
+    width: max-content;
+    border-radius: 5px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top:21px ;
+}
+nav{
+    grid-area: nav;
+    text-align: center;
+    font-size: 15px;
+    height: 60px;
+    background-color:  var(--theme-ui-colors-primary,#ff671b);
+    position:fixed ;
+    overflow: hidden;
+    top:81px ;
+    left: 0%;
+    right: 0%;
+    margin-top: 2px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+nav ul li{
+    list-style: none;
+    padding-right: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 5px;
+    padding-top: 22px;
+    padding-bottom: 25px;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+.menu{
+    width: 100%;
+    margin: 0 auto;
+}
+.pizza{
+    width: fit-content;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 80%;
+    margin: 0 auto;
+}
+button{
+    border: 0;
+    background-color: white;
+}
+button a img{
+    background-color: rgb(0, 128, 0);
+    border-radius: 5px;
+    width: 50px;
+    
+}
+.carrito{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.m_item{
+    display: inline-table;
+    width:15% ;
+    border-radius: 10px;
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    top: 200px;
+    box-shadow: rgb(240, 239, 239) 5px 5px;
+    border: solid rgb(240, 239, 239) 2px;
+}
+.img_pizza img{
+    width:200px;
+    border-radius: 5px;
+    display: inline-block;
+}
+footer{
+    background-color: rgb(100, 100, 100);
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+}

@@ -1,0 +1,47 @@
+header {
+    margin-left: 615px;
+    margin-top: 125px;
+    position: fixed;
+  }
+  nav ul li {
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    display: inline-block;
+    border-style: solid;
+    text-align:center;
+    height: 30px;
+    width:30%;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding: 1px;
+    background-color:#ff6f3c;
+  
+  }
+  .nav ul li a {
+    margin-left: 50px;
+    padding: 25px;
+    color:rgb(3, 3, 3);
+  text-align: center;
+  }
+  nav ul li:hover {
+    background-color: #155263;
+    font-display:block;
+    flex-grow: initial;
+  }
+.titulo{
+  text-align: center;
+  background: #155263;
+  border-style: solid;
+  font-display:flex;
+  overflow: hidden; 
+}
+.pedido{
+  text-align:center; 
+  margin-bottom: 350px;
+  margin-top: 65px;
+  margin-left: 350px;
+  margin-right: 225px;
+  border-style: solid;
+  height: 350px;
+  background: #ff6f3c;
+}

@@ -1,134 +1,160 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  body {
-    width: 100%;
-    background-color: #ece4e3;
-    font-family: Arial, Helvetica, sans-serif;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #fa713b;
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-family: "Courier New", Courier, monospace;
+}
+header a {
+  text-decoration: none;
+  color: black;
+}
+nav {
+  position: fixed;
+  width: 100%;
+  top: 3.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fa713b;
+}
+.barra-nav {
+  display: flex;
+  margin-bottom: 1px;
+}
+.barra-nav a {
+  padding: 0rem 4rem;
+  font-size: 2rem;
+  margin: 0;
+  transition: all 0.5s ease;
+}
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  float: left;
+}
+
+nav ul li a {
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+  font-size: 1.4rem;
+  font-family: "Courier New", Courier, monospace;
+}
+.iconos {
+  font-size: 1.4rem;
+}
+.iconos a {
+  text-decoration: none;
+  color: black;
+  padding: 2px 20px;
+  transition: all 0.5s ease;
+}
+
+.iconos a:hover {
+  color: white;
+}
+nav ul li a:hover {
+  background-color: black;
+  color: white;
+}
+
+#grid {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+.columnas {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(248, 115, 63, 60%);
+  box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+}
+.contenedor {
+  --gap: 16px;
+  --num-cols: 2;
+  --row-height: 400px;
+  box-sizing: border-box;
+  padding: var(--gap);
+  display: grid;
+  grid-template-columns: repeat(var(--num-cols), 1fr);
+  grid-auto-rows: var(--row-height);
+  gap: var(--gap);
+ 
+}
+.img{
+  width: 17rem;
+   
+}
+.img-perfil{
+  width: fit-content;
+  height: fit-content;
+  border: 1px solid black;
+  margin: 50px;
+  margin-top: 0;
+
+ 
+}
+figcaption {
+  width: 17rem;
+  height: 10px;
+  text-align: center;
+  margin-top: 70px;
+  padding-bottom: 20px;
   
-  .titulo {
-    text-align: center;
-    border: solid black;
-    display: block;
-    margin: 0 auto;
-    width: 100%;
-    height: 180px;
-    background-color: #c4c4c4;
-    padding: 70px;
-  }
-  
-  .form-login {
-    width: 400px;
-    height: 340px;
-    background-color: #fa713b;
-    margin: auto;
-    margin-top: 240px;
-    box-shadow: 7px 13px 37px #000;
-    padding: 20px 30px;
-    border-top: 4px solid #fa713b;
-    color: rgb(0, 0, 0);
-  }
-  
-  .form-login h5 {
-    margin: 0;
-    text-align: center;
-    height: 40px;
-    margin-bottom: 30px;
-    border-bottom: 1px solid;
-    font-size: 20px;
-  }
-  
-  .controls {
-    width: 100%;
-    border: 1px solid black;
-    margin-bottom: 15px;
-    padding: 11px 10px;
-    background: #fa713b;
-    font-size: 14px;
-    font-weight: bold;
-  }
-  
-  .buttons {
-    width: 100%;
-    height: 40px;
-    background: #fa713b;
-    color: black;
-  }
-  
-  .form-login p {
-    height: 40px;
-    text-align: center;
-    border-bottom: 1px solid;
-  }
-  
-  header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background-color: #fa713b;
-    z-index: 1000;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5rem;
-    font-family: "Courier New", Courier, monospace;
-  }
-  header a {
-    text-decoration: none;
-    color: black;
-  }
-  nav {
-    position: fixed;
-    width: 100%;
-    top: 3.4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #fa713b;
-  }
-  .barra-nav {
-    display: flex;
-    margin-bottom: 1px;
-  }
-  .barra-nav a {
-    padding: 0rem 4rem;
-    font-size: 2rem;
-    margin: 0;
-    transition: all 0.5s ease;
-  }
-  nav ul {
-    list-style-type: none;
-  }
-  
-  nav ul li {
-    float: left;
-  }
-  
-  nav ul li a {
-    color: black;
-    font-weight: bolder;
-    text-decoration: none;
-    font-size: 1.4rem;
-    font-family: "Courier New", Courier, monospace;
-  }
-  .iconos {
-    font-size: 1.4rem;
-  }
-  .iconos a {
-    text-decoration: none;
-    color: black;
-    padding: 2px 20px;
-    transition: all 0.5s ease;
-  }
-  
-  .iconos a:hover {
-    color: white;
-  }
-  nav ul li a:hover {
-    background-color: black;
-    color: white;
-  }
-  
+}
+
+#b-editar-info{
+  font-size: 2vh;
+}
+button#b-editar-info{
+ float: right;
+ margin-right: 30px;
+ margin-bottom: 20px;
+}
+
+.info-user{
+  display: block;
+  width:23em;
+  height: 300px;
+  float: right;
+ margin-right: 40px;
+ 
+}
+.info1{
+  text-align: center;
+  margin-right: 30px;
+ 
+}
+h2.info1, p.parrafo,span.info2{
+
+}
+.info2{
+  margin-left: 40px;
+}
+p.info-n{
+  text-align: center;
+}
+.parrafo {
+margin-left: 80px;
+
+}
+span.parrafo{
+ 
+}
