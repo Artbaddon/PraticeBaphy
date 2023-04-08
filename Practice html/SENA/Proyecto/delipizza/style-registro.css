@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -5,6 +6,8 @@
 }
 body {
   background-color: #ece4e3;
+  font-family: 'Courier New', Courier, monospace;
+
 }
 header {
   position: fixed;
@@ -23,6 +26,19 @@ header a {
   color: rgb(255, 255, 255);
  
 }
+header h1{
+  display: inline;
+  font-family: 'Caveat', cursive;
+
+}
+.bxs-pizza{
+ color: white;
+display: inline;
+font-size: 2rem;
+
+    
+}
+
 nav {
   position: fixed;
   width: 100%;
@@ -35,10 +51,11 @@ nav {
 .barra-nav {
   display: flex;
   margin-bottom: 1px;
+ 
 }
 .barra-nav a {
   padding: 0rem 4rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0;
   transition: all 0.5s ease;
 
@@ -55,8 +72,8 @@ nav ul li a {
   color: rgb(255, 255, 255);
   font-weight: bolder;
   text-decoration: none;
-  font-size: 1.4rem;
-  font-family: "Courier New", Courier, monospace;
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .iconos {
   font-size: 1.4rem;
@@ -72,16 +89,15 @@ nav ul li a {
   color: rgb(0, 0, 0);
 }
 nav ul li a:hover {
-  background-color: black;
-  color: white;
+ 
+  color: rgb(0, 0, 0);
 }
-
 .registro {
   width: 400px;
   height: fit-content;
   background-color: #fa713b;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 10rem;
   margin-bottom: 20px;
   box-shadow: 7px 13px 37px #000;
   padding: 20px 30px;
@@ -105,6 +121,7 @@ nav ul li a:hover {
 }
 h2 {
   text-align: center;
+  color: white;
 }
 h5 {
   text-align: center;
@@ -118,4 +135,9 @@ hr {
   height: 40px;
   background: white;
   color: black;
+}
+
+input::placeholder{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
 }

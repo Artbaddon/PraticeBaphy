@@ -9,38 +9,47 @@
       href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
       rel="stylesheet"
     />
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  />
     <link rel="stylesheet" href="style-login.css" />
-  </head>
-
-  <body>
-    <header>
-      <div id="logo">
-        <a href="login.html"><h1> Delipizza</h1></a>
-      </div>
-    </header>
-    <nav class="navbar">
-      <ul class="barra-nav">
-        <li><a href="index.html">INICIO</a></li>
-        <li><a href="menu.html">MENU</a></li>
-        <li><a href="perfil.html">PERFIL</a></li>
-      </ul>
-      <div class="iconos">
-        <a href="login.html" class="usuario"><i class="ri-user-fill"></i></a>
-        <a href="carrito.html" class="carrito"
-          ><i class="ri-shopping-cart-2-fill"></i
-        ></a>
-      </div>
-    </nav>
+    <div id="logo">
+      <i class='bx bxs-pizza'></i>
+      <h1><a href="index.html"> Delipizza</a></h1>
+    </div>
+</head>
+<header>
+     
+  <div id="logo">
+    <i class='bx bxs-pizza'></i>
+    <h1><a href="index.html"> Delipizza</a></h1>
+  </div>
+</header>
+<nav class="navbar">
+  <ul class="barra-nav">
+    <li><a href="index.html">INICIO</a></li>
+    <li><a href="menu.html">MENU</a></li>
+    <li><a href="perfil.html">PERFIL</a></li>
+  </ul>
+  <div class="iconos">
+    <a href="login.html" class="usuario"><i class="ri-user-fill"></i></a>
+    <a href="carrito.html" class="carrito"
+      ><i class="ri-shopping-cart-2-fill"></i
+    ></a>
+  </div>
+</nav>
+ 
 
     <section class="form-login">
       <h5>login</h5>
-<form action="">
+<form action="index.html">
       <input
         class="controls"
         type="text"
         name="usuario"
         value=""
-        placeholder="usuario"
+        placeholder="usuario" required  
       />
 
       <input
@@ -48,9 +57,9 @@
         type="password"
         name="contraseña"
         value=""
-        placeholder="contraseña"
+        placeholder="contraseña" required
       />
-      <input class="buttons" type="submit" value="ingresar" />
+     <input class="buttons" type="submit" value="ingresar" />
     </form>
       <p class="login1">
         ¿No tienes cuenta? registrate <a href="registro.html">acá</a>

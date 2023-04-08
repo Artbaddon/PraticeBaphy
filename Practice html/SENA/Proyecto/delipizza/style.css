@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
 *{
   margin: 0;
   padding: 0;
@@ -7,9 +9,8 @@
 
 body {
   min-height: 100vh;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  font-family: "Courier New", Courier, monospace;
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   background-color: #ece4e3;
 }
 /* Header and nav bar*/
@@ -31,6 +32,19 @@ header a {
   color: rgb(255, 255, 255);
  
 }
+header h1{
+  display: inline;
+  font-family: 'Caveat', cursive;
+
+}
+.bxs-pizza{
+ color: white;
+display: inline;
+font-size: 2rem;
+
+    
+}
+
 nav {
   position: fixed;
   width: 100%;
@@ -43,10 +57,11 @@ nav {
 .barra-nav {
   display: flex;
   margin-bottom: 1px;
+ 
 }
 .barra-nav a {
   padding: 0rem 4rem;
-  font-size: 2rem;
+  font-size: 1.8rem;
   margin: 0;
   transition: all 0.5s ease;
 
@@ -63,8 +78,8 @@ nav ul li a {
   color: rgb(255, 255, 255);
   font-weight: bolder;
   text-decoration: none;
-  font-size: 1.4rem;
-  font-family: "Courier New", Courier, monospace;
+ 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .iconos {
   font-size: 1.4rem;
@@ -80,8 +95,8 @@ nav ul li a {
   color: rgb(0, 0, 0);
 }
 nav ul li a:hover {
-  background-color: black;
-  color: white;
+ 
+  color: rgb(0, 0, 0);
 }
 /*Banner imagenes*/
 

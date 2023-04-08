@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 
 .grid{
     width: 100%;
@@ -7,37 +15,46 @@
 a{
     color: white;
 }
-header{
-    grid-area: cab;
-    background-color:var(--theme-ui-colors-primary,#ff671b);
-    height: 82px;
+header {
     position: fixed;
-    top:0%;
-    left: 0%;
-    right: 0%;
-    border-bottom: 2px solid rgb(255, 255, 255);
-}
-header h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    color: darkgreen;
-}
-h1{
-    width: max-content;
-    border-radius: 5px;
-    background-color: white;
-    margin: 0 auto;
-    margin-top:21px ;
-}
+    width: 100%;
+    top: 0;
+    background-color: #fa713b;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    height: 4.3rem;
+  }
+  header a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+   
+  }
+  header h1{
+    display: inline;
+    font-family: 'Caveat', cursive;
+  
+  }
+  .bxs-pizza{
+   color: white;
+  display: inline;
+  font-size: 2rem;
+  
+      
+  }
+
 nav{
     grid-area: nav;
     text-align: center;
     font-size: 15px;
     height: 60px;
-    background-color:  var(--theme-ui-colors-primary,#ff671b);
+   
+    background-color:  var(--theme-ui-colors-primary,#fa713b);
     position:fixed ;
     overflow: hidden;
-    top:81px ;
+    top:8% ;
     left: 0%;
     right: 0%;
     margin-top: 2px;
@@ -62,7 +79,7 @@ nav ul li a{
     font-size: 20px;
 }
 nav ul li a:hover{
-    background-color: white;
+   
     color: black;
 }
 .menu{

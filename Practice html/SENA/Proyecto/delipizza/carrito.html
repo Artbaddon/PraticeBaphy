@@ -1,15 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="añadir al carrito.css">
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+  rel="stylesheet"
+/>
+    <link
+    href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+    rel="stylesheet"
+  /><link rel="stylesheet" href="carrito.css">
     <title>DeliPizza</title>
 </head>
 <body>
-    <header>
-        <div>
-            <a href="index.html"><h1>DELIPIZZA</h1></a>
-        </div>
-    </header>
+  <header>
+     
+    <div id="logo">
+      <i class='bx bxs-pizza'></i>
+      <h1><a href="index.html"> Delipizza</a></h1>
+    </div>
+  </header>
+  <nav class="navbar">
+    <ul class="barra-nav">
+      <li><a href="index.html">INICIO</a></li>
+      <li><a href="menu.html">MENU</a></li>
+      <li><a href="perfil.html">PERFIL</a></li>
+    </ul>
+    <div class="iconos">
+      <a href="login.html" class="usuario"><i class="ri-user-fill"></i></a>
+      <a href="carrito.html" class="carrito"
+        ><i class="ri-shopping-cart-2-fill"></i
+      ></a>
+    </div>
+  </nav>
+    <section id="all" >
     <div class="Pedidos">
             <h2 class="p1">Pizza #1</h2>
             <img src="pizza prueba.jfif" alt="" class="im1" >
@@ -27,7 +50,8 @@
         <br>
         <h3 class="t">Total: xxxx</h3>
         <br>
-        <button class="final_compra"><b>Finalizar compra</button>
+        <button class="final_compra"><a href="perfil.html"><b>Finalizar compra</button></a>
     </div>
+  </section>
 </body>
 </html>
