@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h3>¿Alcohol o gasolina?</h3>
+    <script>
+      function saltarlinea() {
+        document.write("<br>");
+        document.write("<br>");
+      }
+
+      var tanque = 40;
+      var recorrido_Gasolina = 480;
+      var recorrido_Alcohol = 300;
+      var consumo_Gasolina = recorrido_Gasolina / tanque;
+      var consumo_Alcohol = recorrido_Alcohol / tanque;
+
+      document.write(
+        "A) El auto que recorrio " +
+          recorrido_Gasolina +
+          "km, y gasto " +
+          tanque +
+          " litros de gasolina, tiene una eficiencia de " +
+          consumo_Gasolina,
+        " litros por km"
+      );
+
+      saltarlinea();
+      
+      document.write(
+        "B) Por otro lado, el auto que recorrio " +
+          recorrido_Alcohol +
+          "km, y gasto " +
+          tanque +
+          " litros de alcohol, tiene una eficiencia de " +
+          consumo_Alcohol,
+        " litros por km"
+      );
+    </script>
+  </body>
+</html>

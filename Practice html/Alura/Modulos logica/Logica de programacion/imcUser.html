@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC USER</title>
+  </head>
+  <body>
+    <h2>Program to calculate the imc of the USER</h2>
+    <script>
+      var nombre = prompt("Como se llama?");
+      var pesoU = prompt("Digite su peso");
+      var alturaU = prompt("Digite su altura");
+
+      function saltarL() {
+        document.write("<br>");
+        document.write("<br>");
+        document.write("<hr>");
+        document.write("<br>");
+        document.write("<br>");
+      }
+      function write(frase) {
+        document.write(frase);
+        saltarL();
+      }
+      function imc(peso, altura) {
+        return peso / (altura * altura);
+      }
+      var imcU = imc(pesoU, alturaU);
+      write("el imc de: " + nombre + " es de: " + imcU);
+    </script>
+  </body>
+</html>
