@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>IMC USER</title>
+    <style>
+        body{
+            text-align: center;
+        }
+    </style>
   </head>
   <body>
     <h2>Program to calculate the imc of the USER</h2>
@@ -29,6 +34,22 @@
       }
       var imcU = imc(pesoU, alturaU);
       write("el imc de: " + nombre + " es de: " + imcU);
+
+      if (imcU < 18.5) {
+        write("Usted tiene bajo peso");
+      }
+
+      if (imcU > 18.5 && imcU < 25) {
+        write("Usted tiene peso normal");
+      }
+
+      if (imcU > 25 && imcU < 30) {
+        write("Usted tiene sobrepeso");
+      }
+
+      if (imcU >= 30) {
+        write("Usted tiene obesidad");
+      }
     </script>
   </body>
 </html>

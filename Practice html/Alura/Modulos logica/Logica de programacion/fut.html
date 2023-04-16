@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>FUBOL</title>
+  </head>
+  <body>
+    <h1>Calculador do puntos FUCHIBOL</h1>
+    <script>
+      function saltarl() {
+        document.write("<br><br><br>");
+      }
+      function write(frase) {
+        document.write(frase);
+        saltarl();
+      }
+
+      var victorias = parseInt(prompt("Cuantas victorias tuvo su equipo"));
+      var empates = parseInt(prompt("Cuantos empates tuvo su equipo?"));
+      var puntosT = victorias * 3 + empates;
+
+      write("El total de puntos del equipo es de: " + puntosT);
+
+      if (puntosT > 28) {
+        write("El equipo esta mejor que el year pasado");
+      }
+      if (puntosT < 28) {
+        write("El equipo esta peor  que el year pasado");
+      }
+
+      if (puntosT == 28) {
+        write("El equipo esta igual que el year pasado");
+      }
+    </script>
+  </body>
+</html>
