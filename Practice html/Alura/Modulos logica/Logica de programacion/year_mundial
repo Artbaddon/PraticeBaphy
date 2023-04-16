@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IMC USER</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>years mundial</h2>
+    <script>
+      function saltarL() {
+        document.write("<br><br>");
+        document.write("<hr>");
+        document.write("<br><br>");
+      }
+      function write(frase) {
+        document.write(frase);
+        saltarL();
+      }
+      var year_Mundial = 1930;
+      alert("Hubo mundial de la FIFA en el year " + year_Mundial);
+    </script>
+  </body>
+</html>
