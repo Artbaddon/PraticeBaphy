@@ -45,10 +45,12 @@
           var numeroAleatorio = rnd();
           console.log(numeroAleatorio);
           var encontrado = false;
-          for (var position = 0; position < nSecretos.length; position++) {
-            if (numeroAleatorio == nSecretos[position]) {
-              encontrado = true;
-              break;
+          if (numeroAleatorio != 0) {
+            for (var position = 0; position < nSecretos.length; position++) {
+              if (numeroAleatorio == nSecretos[position]) {
+                encontrado = true;
+                break;
+              }
             }
           }
           if (encontrado == false) {
