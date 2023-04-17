@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jogo secreto</title>
+    <style>
+      body {
+        text-align: center;
+        background-color: cadetblue;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>JOGO</h2>
+    <div class="login">
+      <form action="">
+        <input type="text" name="number" id="user" placeholder="number" />
+
+        <button name="send">Entrar</button>
+      </form>
+    </div>
+    <script>
+      function saltarL() {
+        document.write("<br>");
+      }
+      function write(frase) {
+        document.write(frase);
+        saltarL();
+      }
+
+      //   var number = Math.round(Math.random() * 10);
+      // Los arrays se declaran como variables
+      var nSecretos = [1, 4, 5, 6, 7];
+    
+
+      var inputU = document.querySelector("input[name='number']");
+      inputU.focus();
+
+      function verificar() {
+        var encontrado = false;
+        for (var position = 0; position < nSecretos.length; position++) {
+          if (parseInt(inputU.value) == nSecretos[position]) {
+            alert("Usted acerto");
+            encontrado = true;
+            break;
+          }
+        }
+
+        if (encontrado == false) {
+          alert("Usted se ha equivado");
+        }
+
+        inputU.value = "";
+
+        inputU.focus();
+      }
+      var send = document.querySelector("button[name='send']");
+      send.onclick = verificar;
+      write("THe end");
+    </script>
+  </body>
+</html>

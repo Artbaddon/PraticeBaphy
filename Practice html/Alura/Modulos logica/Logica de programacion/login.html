@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stars</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>STARS</h2>
+    <script>
+      function saltarL() {
+        document.write("<br>");
+      }
+      function write(frase) {
+        document.write(frase);
+        saltarL();
+      }
+      var user_Registred = "Victor";
+      var password = "123";
+      var intentos = 3;
+      var contador = 1;
+
+      while (contador <= intentos) {
+        var user_Given = prompt("Ingrese su usuario");
+        var password_Given = prompt("Ingrese su contraseña");
+        if (user_Registred == user_Given && password == password_Given) {
+          write("Bienvenido al sistema " + user_Given);
+          break;
+        } else {
+          alert("inicio de sesión inválido. Favor intente de nuevo");
+        }
+        if (contador == intentos) {
+          alert("Demasiados inicios de sesion errados intente despues ");
+          write("Demasiados intentos intente despues");
+          break;
+        }
+        contador++;
+      }
+
+      write("THe end");
+    </script>
+  </body>
+</html>

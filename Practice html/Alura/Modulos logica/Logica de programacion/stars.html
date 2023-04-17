@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stars</title>
+    <style>
+      body {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>STARS</h2>
+    <script>
+      function saltarL() {
+        document.write("<br>");
+      }
+      function write(frase) {
+        document.write(frase);
+        saltarL();
+      }
+      for (var line = 1; line <= 5; line++) {
+        for (var column = 1; column <= 10; column++) {
+          document.write(" * ");
+        }
+        saltarL();
+      }
+
+      write("THe end");
+    </script>
+  </body>
+</html>

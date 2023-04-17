@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEDIAE DADES</title>
+    <style>
+      body {
+        text-align: center;
+        width: 50%;
+        margin: 0 auto;
+        font-family: "Courier New", Courier, monospace;
+      }
+      h1 {
+        border: 3px double black;
+      }
+      .thign {
+        font-size: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>MEDIA EDADES</h1>
+    <br />
+    <hr />
+    <br />
+    <div class="thign">
+      <script>
+        function saltarL() {
+          document.write("<br><br>");
+          document.write("<hr>");
+          document.write("<br><br>");
+        }
+        function write(frase) {
+          document.write(frase);
+          saltarL();
+        }
+
+        var personas = parseInt(
+          prompt("Cuantas personas viven en su familia?")
+        );
+        var contador = 1;
+        var edadT = 0;
+        var edadpromedio = 0;
+        var i = 0;
+
+        while (contador <= personas) {
+          var edadp = parseInt(prompt("Ingrese la edad de la persona"));
+          var edadT = edadT + edadp;
+          var edadpromedio = edadT / personas;
+          contador++;
+        }
+        write("La edad promedio de su familia es de: " + edadpromedio);
+
+        write("<h2>Parte 2</h2>");
+        write("Los numeros pares del 1 al 100 son: ");
+        for (i = 0; i <= 100; i + 2) {
+          write(i);
+        }
+      </script>
+    </div>
+  </body>
+</html>
