@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      canvas {
+        display: block;
+        margin: 0 auto;
+        border: 2px solid black;
+      }
+      h2 {
+        text-align: center;
+      }
+      .aa {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>AAA</h2>
+
+    <canvas class="aa" width="600" height="400"></canvas>
+  </body>
+
+  <script>
+    const pantalla = document.querySelector(".aa");
+    const pincel = pantalla.getContext("2d");
+    pincel.fillStyle="white";
+    pincel.fillRect(0, 0, 600, 400);
+    var puedoDibujar = false;
+ 
+    
+
+
+    function dibujarCirculo(evento) {
+
+        if(puedoDibujar) {
+            var x = evento.pageX - pantalla.offsetLeft;
+            var y = evento.pageY - pantalla.offsetTop;
+            pincel.fillStyle = 'blue';
+            pincel.beginPath();
+            pincel.arc(x, y, 5, 0, 2 * 3.14);
+            pincel.fill();
+        }
+
+    }
+
+    pantalla.onmousemove = dibujarCirculo;
+
+    function habilitarDibujar() {
+
+        puedoDibujar = true;
+    }
+
+    function deshabilitarDibujar() {
+
+        puedoDibujar = false;
+    }
+
+    pantalla.onmousedown = habilitarDibujar;
+
+    pantalla.onmouseup = deshabilitarDibujar;
+
+</script>
+  </script>
+</html>

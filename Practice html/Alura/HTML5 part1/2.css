@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    width: 100%;
+    background-color: aliceblue;
+    height: 20vh;
+}
+
+.logo {
+    display: inline-block;
+    
+}
+.img-logo{
+    
+    width: 100px;
+    padding: 10px;
+    
+    
+}
+
+.navbar {
+    
+    float: right;
+    background-color: black;
+}
+
+.navbar a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.navbar li{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+
+}

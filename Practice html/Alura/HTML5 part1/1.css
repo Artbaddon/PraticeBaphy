@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 20px;
+  background-color: #cccccc;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.aaa {
+  padding: 20px;
+}
+header h1 {
+  text-align: center;
+  background-color: aliceblue;
+  position: fixed;
+  width: 80%;
+  top: 0;
+}
+.inicio {
+  background-color: rgb(243, 243, 243);
+}
+.inicio h2 {
+  text-align: center;
+  font-size: 34px;
+}
+.mision p {
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+
+.texto2 {
+  background-color: rgb(243, 243, 243);
+  font-size: 20px;
+  text-align: justify;
+  padding: 10px;
+}
+
+em strong {
+  color: red;
+}
+
+#mision {
+  font-size: 25px;
+}
+#dios {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+}
+
+.diferenciales {
+  padding: 20px;
+}
+.diferenciales ul {
+  display: inline-block;
+  vertical-align: top;
+  padding: 30px;
+  margin: 10px;
+  background-color: white;
+  border: 2px solid black;
+}
+
+.diferenciales ul li,
+.diferenciales h3 {
+  font-style: italic;
+  font-size: 24px;
+}
+
+.diferenciales h3 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+
+.img-dif {
+  width: 60%;
+}
+.inicio p {
+  font-size: 24px;
+  text-align: center;
+  padding: 10px;
+}
