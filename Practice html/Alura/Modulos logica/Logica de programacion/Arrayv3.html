@@ -23,13 +23,18 @@
       </form>
     </div>
     <script>
-      function saltarL() {
-        document.write("<br>");
+      function saltarL(cantidad) {
+        for (var i = 0; i < cantidad; i++) {
+          document.write("<br>");
+        }
       }
       function write(frase) {
         document.write(frase);
-        saltarL();
+        saltarL(2);
       }
+      saltarL(2);
+      write("HOLA");
+      
 
       //   var number = Math.round(Math.random() * 10);
       // Los arrays se declaran como variables
@@ -52,16 +57,16 @@
                 break;
               }
             }
-          }
-          if (encontrado == false) {
-            nSecretos.push(numeroAleatorio);
-            contador++;
+            if (encontrado == false) {
+              nSecretos.push(numeroAleatorio);
+              contador++;
+            }
           }
         }
         return nSecretos;
       }
 
-      secretos = sortearN(10);
+      secretos = sortearN(4);
       console.log(secretos);
 
       var inputU = document.querySelector("input[name='number']");

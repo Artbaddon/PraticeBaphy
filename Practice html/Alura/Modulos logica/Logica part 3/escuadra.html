@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      canvas {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        border: 2px solid black;
+      }
+      h2 {
+        text-align: center;
+        color: green;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>ESCUADRA JAVASCRIPT Y CANVAS</h2>
+    <canvas class="escuadra" width="600" height="400"></canvas>
+  </body>
+
+  <script>
+    var pantalla = document.querySelector(".escuadra");
+    var pincel = pantalla.getContext("2d");
+
+    pincel.fillStyle="gray";
+    pincel.fillRect(0,0,600,400)
+
+    pincel.fillStyle="black";
+   
+    pincel.beginPath();
+    pincel.moveTo(200, 50);
+    pincel.lineTo(200, 350);
+    pincel.lineTo(500, 350);
+    pincel.fill();
+
+    pincel.fillStyle="white";
+    pincel.beginPath();
+    pincel.moveTo(230, 130);
+    pincel.lineTo(230, 320);
+    pincel.lineTo(430, 320);
+    pincel.fill();
+
+    
+  </script>
+</html>

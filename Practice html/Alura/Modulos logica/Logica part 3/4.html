@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      canvas {
+        display: block;
+        margin: 0 auto;
+
+        border: 2px solid black;
+      }
+      h2 {
+        text-align: center;
+      }
+      .aa {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>AAA</h2>
+
+    <canvas class="aa" width="600" height="400"></canvas>
+  </body>
+
+  <script>
+    const pantalla = document.querySelector(".aa");
+    const pincel = pantalla.getContext("2d");
+    pincel.fillStyle = "lightgray";
+    pincel.fillRect(0, 0, 600, 400);
+
+    function dCircunferencia(x, y, radio) {
+      pincel.fillStyle = "blue";
+      pincel.beginPath();
+      pincel.arc(x, y, radio, 0, 2 * Math.PI);
+      pincel.fill();
+    }
+
+    function limpiarPantalla() {
+      pincel.clearRect(0, 0, 600, 400);
+    }
+
+    function exibirMensaje() {
+      console.log("HOLA");
+    }
+
+    setInterval(exibirMensaje);
+
+    // dCircunferencia(20, 10, 10)
+  </script>
+</html>

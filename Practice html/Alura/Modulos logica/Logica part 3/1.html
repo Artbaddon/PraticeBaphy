@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+      canvas {
+        display: block;
+        margin: 0 auto;
+
+        border: 2px solid black;
+      }
+      h2{
+        text-align: center;
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Bandera Canvas JAVASCRIPT</h2>
+    <canvas class="tablerito" width="600" height="400"></canvas>
+
+  </body>
+
+  <script>
+
+    var pantalla = document.querySelector(".tablerito");
+    var pincel = pantalla.getContext("2d");
+  
+
+    //top-left square
+    pincel.fillStyle = "green";
+    pincel.fillRect(0, 0, 300, 200);
+
+    //top-right square
+    pincel.fillStyle = "orange";
+    pincel.fillRect(300, 0, 300, 200);
+
+    //bottom-left square
+    pincel.fillStyle = "blue";
+    pincel.fillRect(0, 200, 300, 400);
+
+    //bottom-right square
+    pincel.fillStyle = "yellow";
+    pincel.fillRect(300, 200, 600, 400);
+
+    //md square
+    pincel.fillStyle = "red";
+    pincel.fillRect(120, 100, 350, 100);
+
+    pincel.fillStyle = "gray";
+    pincel.fillRect(120, 200, 350, 100);
+
+    //circle mid
+
+    pincel.fillStyle = "black";
+    pincel.beginPath();
+    pincel.moveTo(120, 200);
+    pincel.lineTo(300, 100);
+    pincel.lineTo(300, 300);
+    pincel.fill();
+
+    pincel.beginPath();
+    pincel.moveTo(480, 200);
+    pincel.lineTo(300, 100);
+    pincel.lineTo(300, 300);
+    pincel.fill();
+
+    pincel.fillStyle = "white";
+    pincel.moveTo(300, 200);
+    pincel.arc(300, 200, 50, 0, 2 * 3.14);
+    pincel.fill();
+    
+
+  </script>
+</html>

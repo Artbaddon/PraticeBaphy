@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <style>
+
+        body{
+            background-image: url(https://th.bing.com/th/id/OIP.cNJw_R9rkvcdgnATlzlFLwHaEK?pid=ImgDet&rs=1);
+            background-size: cover;
+        }
+      canvas {
+        display: block;
+        margin: 0 auto;
+        margin-top: 50px;
+        border: 2px solid black;
+      }
+      h2{
+        text-align: center;
+        color: green;
+      }
+    </style>
+    <title>CREEPER</title>
+  </head>
+  <body>
+   <h2>CREEPER JAVASCRIPT Y CANVAS</h2>
+    <canvas class="creeper" width="600" height="600"></canvas>
+  </body>
+
+  <script>
+    
+    var pantallaC = document.querySelector(".creeper");
+    var pincelC = pantallaC.getContext("2d");
+
+    //Creeper 
+    pincelC.fillStyle="darkgreen";
+    pincelC.fillRect(0,0,600,600)
+
+    //eyes
+
+    pincelC.fillStyle="black";
+    pincelC.fillRect(100,100,150,150)
+    pincelC.fillRect(350,100,150,150)
+
+    //mouth
+
+    pincelC.fillRect(250,250,100,190)
+    pincelC.fillRect(350,320,100,200)
+    pincelC.fillRect(150,320,100,200)
+  </script>
+</html>
