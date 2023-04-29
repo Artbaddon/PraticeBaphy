@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TIENDA DE ROPA DOMO</title>
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style-about.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <h1 class="logo">
+          <img class="img-logo" src="img/aaaaaa.png" alt="logo company" />
+        </h1>
+        <ul class="navbar">
+          <li><a href="index.html"> Home</a></li>
+          <li><a href="productos.html"> Product</a></li>
+          <li><a href="about.html"> Contact</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <div class="all">
+        <div class="div-form">
+          <form action="" class="form">
+            <label for="nombre">Nombre y apellido</label>
+            <input
+              type="text"
+              name="nombre"
+              id="nombre"
+              class="principal"
+              required
+              placeholder="Su nombre y apellido"
+            />
+
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="principal"
+              required
+              placeholder="email@dominio.com"
+              
+            />
+
+            <label for="telefono">Telefono</label>
+            <input
+              type="text"
+              name="telefono"
+              id="telefono"
+              class="principal"
+              required
+              placeholder="(xx) xxxxx xxxxx "
+            />
+
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              name="mensaje"
+              id="mensaje"
+              cols="70"
+              rows="10"
+              required
+            ></textarea>
+
+            <fieldset class="radio-btn">
+              <legend class="contacto">¿Como le gustaria que lo contactemos?</legend>
+
+              <label for="radio-email">
+                <input
+                  type="radio"
+                  value="email"
+                  name="contacto"
+                 
+                />Email
+              </label>
+
+              <label for="radio-tel">
+                <input
+                  type="radio"
+                  value="telefono"
+                  name="contacto"
+                 
+                />Telefono
+              </label>
+
+              <label for="radio-whats">
+                <input
+                  type="radio"
+                  value="whatsapp"
+                  name="contacto"
+                  id="radio-whats"
+                  checked
+                />Whatsapp
+              </label>
+            </fieldset>
+            <fieldset class="selection-H">
+              <legend>¿En qué horario desea ser atendido?</ñ>
+              <select name="hora" id="hora" required>
+                <option value="mañana">Mañana</option>
+                <option value="tarde">Tarde</option>
+                <option value="noche">Noche</option>
+              </select>
+            </fieldset>
+
+            <label for="checkbox" class="checkbox">
+              <input type="checkbox" name="checkbox" id="checkbox" checked />
+              ¿Le gustaría recibir novedades de tienda DOMO?</label
+            >
+            <input type="submit" value="enviar formulario" class="enviar" />
+          </form>
+        </div>
+      </div>
+      <table class="horarios">
+        <thead>
+          <tr> 
+            <th>Dia</th>
+            <th>Horario</th>
+          </tr>
+         
+        </thead>
+        <tbody>
+        <tr>
+          <td>Wednesday</td>
+          <td>06h ~ 22h</td>
+        </tr>
+        <tr>
+          <td>Friday</td>
+          <td>06h ~ 22h</td>
+        </tr>
+        <tr>
+          <td>Sabath</td>
+          <td>06h ~ 20h</td>
+        </tr>
+      </tbody>
+      </table>
+    </main>
+    <footer>
+      <img src="img/aaaaaa.png" alt="logo company"/>
+      <p class="copy">&copy Copyright Domo Shop 2023</p>
+    </footer>
+  </body>
+</html>

@@ -4,22 +4,65 @@
   box-sizing: border-box;
 }
 body {
-  width: 80%;
-  margin: 0 auto;
-  margin-top: 20px;
   background-color: #cccccc;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-.aaa {
-  padding: 20px;
+
+body {
+  font-family: "Courier New", Courier, monospace;
 }
-header h1 {
-  text-align: center;
-  background-color: aliceblue;
-  position: fixed;
+
+header {
+  background-image: url(img/mal20.jpg);
+  background-size: cover;
+  height: fit-content;
+  padding: 20px 0;
+  
+}
+
+.header {
+  width: 940px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.logo {
+  display: inline-block;
+}
+.img-logo {
+  width: 100px;
+  padding: 10px;
+}
+
+.navbar {
+  position: absolute;
+  top: 45px;
+  right: 0;
+
+}
+
+.navbar a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(255, 43, 43);
+  text-decoration: none;
+  font-size: 4vh;
+}
+.navbar a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+.navbar li {
+  display: inline;
+
+  margin: 0 0 0 15px;
+}
+.all {
+  padding: 20px;
   width: 80%;
-  top: 0;
+  margin: 0 auto;
+
 }
 .inicio {
   background-color: rgb(243, 243, 243);
@@ -28,6 +71,7 @@ header h1 {
   text-align: center;
   font-size: 34px;
 }
+
 .mision p {
   margin: 20px;
   font-size: 20px;
@@ -52,7 +96,7 @@ em strong {
 #dios {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 30%;
   height: 300px;
 }
 
@@ -66,6 +110,8 @@ em strong {
   margin: 10px;
   background-color: white;
   border: 2px solid black;
+  width: 300px;
+  list-style-type: disc;
 }
 
 .diferenciales ul li,
@@ -80,6 +126,7 @@ em strong {
   padding: 10px;
 }
 
+
 .img-dif {
   width: 60%;
 }
@@ -87,4 +134,18 @@ em strong {
   font-size: 24px;
   text-align: center;
   padding: 10px;
+}
+footer {
+  text-align: center;
+  background-image: url(img/fondo1.webp);
+  background-size: cover;
+  padding: 50px;
+}
+footer .copy {
+  color: white;
+  font-size: 2.4vh;
+}
+
+footer img {
+  width: 150px;
 }
