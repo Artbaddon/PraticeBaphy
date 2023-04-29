@@ -1,9 +1,10 @@
-body{
-    font-family: 'Courier New', Courier, monospace;
+body {
+  font-family: "Courier New", Courier, monospace;
 }
 
 header {
-  background-color: rgb(151, 151, 151);
+  background-image: url(img/mal20.jpg);
+  background-size: cover;
   height: fit-content;
   padding: 20px 0;
 }
@@ -31,11 +32,85 @@ header {
 .navbar a {
   text-transform: uppercase;
   font-weight: bold;
-  color: black;
+  color: rgb(255, 43, 43);
   text-decoration: none;
-  font-size: 3vh;
+  font-size: 4vh;
+}
+.navbar a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
 }
 .navbar li {
   display: inline;
   margin: 0 0 0 15px;
+}
+.items {
+  width: 80%;
+  margin: 0 auto;
+  padding: 50px;
+}
+
+.items img {
+  width: 250px;
+  height: 200px;
+  padding: 30px;
+}
+
+.items li {
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  height: 450px;
+  vertical-align: top;
+  margin: 0 1.2%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  border: 2px double black;
+  border-radius: 20px;
+}
+
+.items li:hover {
+  transform: ease all 0.2s;
+  border: 2px double red;
+  border-radius: 20px;
+  transform: scale(1.04);
+}
+.items li:active {
+  transform: ease all 0.2s;
+  border: 2px double rgb(129, 129, 129);
+  border-radius: 20px;
+  transform: scale(1.04);
+}
+.items h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.items li:hover h2 {
+  font-size: 33px;
+}
+
+.p-description {
+  font-size: 20px;
+  margin-top: 20px;
+}
+.p-precio {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+footer {
+  text-align: center;
+  background-image: url(img/fondo1.webp);
+  background-size: cover;
+  padding: 50px;
+
+}
+footer .copy {
+  color: white;
+  font-size: 2.4vh;
+}
+
+footer img {
+  width: 150px;
 }
