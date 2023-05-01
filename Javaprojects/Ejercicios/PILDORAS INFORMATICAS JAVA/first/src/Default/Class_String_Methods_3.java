@@ -5,9 +5,9 @@ public class Class_String_Methods_3 {
 
         String alumno1, alumno2;
 
-        alumno1="david";
+        alumno1 = "david";
 
-        alumno2="David";
+        alumno2 = "David";
 
         System.out.println(alumno1.equalsIgnoreCase(alumno2));
 
