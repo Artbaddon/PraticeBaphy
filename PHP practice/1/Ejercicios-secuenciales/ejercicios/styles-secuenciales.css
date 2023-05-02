@@ -1,46 +1,42 @@
 body {
-
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Courier New", Courier, monospace;
     color: white;
-}
-
-.lista1 {
+  }
+  
+  .lista1 {
     display: inline-block;
     vertical-align: top;
     text-decoration: none;
     width: 20%;
-}
-
-.lista1 a {
+  }
+  
+  .lista1 a {
     color: white;
     text-decoration: none;
     font-size: 20px;
-
-}
-
-.lista1 a:hover {
+  }
+  
+  .lista1 a:hover {
     color: black;
-
-
-}
-
-.ejercicios {
-
+  }
+  
+  .ejercicios {
     backdrop-filter: blur(100px);
-
     margin: 0 auto;
     text-align: center;
     text-shadow: 2px 2px black;
-
-}
-
-.ejercicios h1 {
+  }
+  
+  .ejercicios h1 {
     color: white;
     font-size: 4vh;
-
-}
-
-.ejercicios h2 {
+  }
+  
+  .ejercicios h2 {
     color: white;
-
-}
+  }
+  
+  .ejercicios p {
+    font-size: 4vh;
+  }
+  

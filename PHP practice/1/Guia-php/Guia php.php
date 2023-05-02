@@ -79,26 +79,17 @@
 <body>
     <div class="all">
         <div class="ejercicios">
-            <?php
-            include 'ejercicios/funciones.php';
-            echo "<h1>Ejercicios condicionales</h1>";
-
-            ?>
+          <h1>Guia php</h1>
             <ul class="lista1">
-                <li><a href="ejercicios/1.php" target="a">1</a></li>
-                <li><a href="ejercicios/2.php" target="a">2</a></li>
-                <li><a href="ejercicios/3.php" target="a">3</a></li>
-                <li><a href="ejercicios/4.php" target="a">4</a></li>
-                <li><a href="ejercicios/5.php" target="a">5</a></li>
-                <li><a href="ejercicios/6.php" target="a">6</a></li>
-                <li><a href="ejercicios/7.php" target="a">7</a></li>
-                <li><a href="ejercicios/8.php" target="a">8</a></li>
-                <li><a href="ejercicios/9.php" target="a">9</a></li>
-                <li><a href="ejercicios/10.php" target="a">10</a></li>
-                <li><a href="ejercicios/11.php" target="a">11</a></li>
+                <li><a href="1.php" target="a">1</a></li>
+                <li><a href="2.php" target="a">2</a></li>
+                <li><a href="3.php" target="a">3</a></li>
+
 
             </ul>
             <iframe src="" width="60%" height="500px" class="iframe1" name="a"></iframe>
+            
+          
 
         </div>
     </div>
