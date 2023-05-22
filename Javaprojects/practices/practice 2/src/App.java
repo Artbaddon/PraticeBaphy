@@ -37,4 +37,6 @@ class Moto {
     public void agregarRueda() {
         numeroDeRuedas += 1;
     }
+    int i;
+        
 }
