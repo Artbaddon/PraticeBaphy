@@ -1,4 +1,4 @@
-package Default;
+
 
 public class Class_String_Methods_3 {
     public static void main(String[] args) {

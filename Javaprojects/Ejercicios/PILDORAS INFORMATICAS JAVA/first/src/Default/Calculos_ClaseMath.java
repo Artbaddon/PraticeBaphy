@@ -1,4 +1,3 @@
-package Default;
 
 public class Calculos_ClaseMath {
     public static void main(String[] args) {
